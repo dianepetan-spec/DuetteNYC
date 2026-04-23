@@ -1,0 +1,487 @@
+import { db } from "./db";
+import { competitors, type Competitor, type InsertCompetitor } from "@shared/schema";
+
+export interface IStorage {
+  getAllCompetitors(): Competitor[];
+  getCompetitor(id: number): Competitor | undefined;
+  createCompetitor(data: InsertCompetitor): Competitor;
+  seedIfEmpty(): void;
+}
+
+const SEED_DATA: InsertCompetitor[] = [
+  {
+    name: "DuetteNYC",
+    url: "https://duettenyc.com",
+    segment: "Boutique DTC",
+    garmentFocus: "Black ponte bootleg pants & 7-piece capsule wardrobe. Specialty: Essex Boot Leg Ponte Pant. Sustainable Ecovero fabrication.",
+    targetCustomer: "Style-conscious women 30–55, value + sustainability seekers, professional and casual. Loyal repeat buyers.",
+    annualRevenue: "Early-stage DTC (est. <$1M)",
+    priceRange: "$128",
+    priceTier: "Mid",
+    seoKeywords: JSON.stringify(["black ponte bootleg pants", "boot leg ponte pant", "black pants capsule wardrobe", "7 easy pieces", "best black pants", "sustainable ponte pants"]),
+    marketingStrategy: "DTC capsule wardrobe positioning. 'The pant you reach for again and again.' Bundle discounts (20–30% off multi-item). Ecovero sustainability story. Repeat-buyer loyalty signals.",
+    primaryChannels: JSON.stringify(["Direct website", "Shop Pay / Afterpay", "Bundle promotions", "Email (nascent)", "Instagram (nascent)"]),
+    heroHeadline: "Our best selling black pants. Wide comfort waistband and clean lines.",
+    heroCta: "Shop Now",
+    trustSignals: JSON.stringify(["5.0★ rating", "Best Selling Capsule badge", "'I own 5 pairs' customer quote", "Low stock urgency signal", "Machine washable", "Ecovero certification"]),
+    promoOffer: "20% off 2+ items, 30% off 3+ items",
+    conversionScore: 6,
+    bestPractices: JSON.stringify([
+      "Bundle pricing drives multi-unit AOV without generic discounting",
+      "Best-seller badge creates clear social proof hierarchy",
+      "Pull-on comfort waistband is a genuine differentiator",
+      "Sustainable Ecovero fabric at accessible price point",
+      "Explicit 'machine washable' care is a conversion driver"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Already doing: bundle pricing — expand to 4+ item tiers",
+      "Already doing: bestseller badge — add to collection page thumbnails",
+      "Opportunity: add post-purchase review email sequence urgently"
+    ]),
+    reviewCount: "2",
+    rating: "5.0",
+    hasBestseller: 1,
+    hasSustainability: 1,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "Lysse",
+    url: "https://www.lysse.com",
+    segment: "Premium DTC + Wholesale",
+    garmentFocus: "Leggings, ponte pants, denim leggings, tops, dresses. LYSSÉNTIALS essentials sub-brand. LYSSÉFit™ patented waistband. Linen, ponte, knit denim, vegan leather.",
+    targetCustomer: "Women 35–60, urban/suburban professionals, comfort-forward, value inclusive sizing. 'Easy elevated dressing' lifestyle.",
+    annualRevenue: "$9.5M – $50M (est.)",
+    priceRange: "$68 – $248",
+    priceTier: "Mid-Premium",
+    seoKeywords: JSON.stringify(["denim legging women", "wide leg denim pants", "high waist ponte pants", "comfortable dress pants women", "flattering leggings women over 40", "ponte bootcut", "curvy women pants"]),
+    marketingStrategy: "Patented technology (LYSSÉFit™) as hero differentiator. LYSSÉNTIALS sub-brand for evergreen replenishment. 'Easy elevated dressing' positioned around travel and work-to-weekend versatility. 24.3K certified reviews. Affiliate + referral program.",
+    primaryChannels: JSON.stringify(["Instagram @lyssenewyork", "Facebook", "Pinterest", "Email (15% off first order)", "Affiliate program", "Boutique wholesale", "Press / As Seen In", "Yotpo reviews", "Live chat"]),
+    heroHeadline: "OFF-DUTY — Easy, elevated dressing made for travel, sunshine, and off-the-clock style.",
+    heroCta: "SHOP SPRING 2026",
+    trustSignals: JSON.stringify(["24,300 certified reviews (Yotpo)", "LYSSÉFit™ Patent badge", "As Seen In press section", "LYSSÉNTIALS sub-brand badge", "Rewards loyalty program", "Add to Cart on homepage (0-click purchase)"]),
+    promoOffer: "15% off first order (email signup), up to 50% off sale items",
+    conversionScore: 9,
+    bestPractices: JSON.stringify([
+      "Patented technology (LYSSÉFit™) announced before anything else — top-of-page trust anchor",
+      "Add to Cart buttons directly on homepage — zero-click-to-purchase",
+      "24.3K certified reviews badge in footer creates massive social proof",
+      "Dedicated CURVY nav item (not buried in filters) — captures plus-size traffic",
+      "Triptych editorial hero photography signals premium positioning without luxury price",
+      "Affiliate + referral programs create organic marketing flywheel",
+      "LYSSÉNTIALS sub-brand creates evergreen replenishment category"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Create a named sub-brand for DuetteNYC's core ponte pants (e.g., 'Duette Essentials')",
+      "Add product cards with Add-to-Cart directly on homepage",
+      "Launch affiliate / refer-a-friend program with a small commission",
+      "File trademark for DuetteNYC's wide comfort waistband as a named feature",
+      "Add a press / As Seen In section once editorial placements are secured",
+      "Build review count aggressively — Lysse's 24K reviews vs DuetteNYC's 2 is the biggest gap"
+    ]),
+    reviewCount: "24,300",
+    rating: "4.5",
+    hasBestseller: 1,
+    hasSustainability: 0,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "Spanx",
+    url: "https://www.spanx.com",
+    segment: "Shapewear-Crossover DTC",
+    garmentFocus: "Shapewear, ponte pants, wide leg pants, denim, AirEssentials® line, bras, activewear, swim. SPANXsupersmooth™ fabric technology.",
+    targetCustomer: "Women 25–50, millennial-skewing, comfort-meets-style seekers, body-confidence focused. 'Brand for women by women.'",
+    annualRevenue: "$400M – $480M (2024–2025 est.)",
+    priceRange: "$45 – $198",
+    priceTier: "Mid",
+    seoKeywords: JSON.stringify(["shapewear", "ponte wide leg pant", "leggings women", "AirEssentials", "SPANXsupersmooth", "best seller pants women", "high rise pants women", "summer shorts women"]),
+    marketingStrategy: "Purpose-driven 'Elevating Women' brand positioning. Proprietary fabric naming (AirEssentials®, SPANXsupersmooth™). Witty, conversational copy voice. SPANX Icon Rewards loyalty program. SMS + email double opt-in with 15% off. SPANX Stylist Chat live assistance.",
+    primaryChannels: JSON.stringify(["Instagram @spanx", "TikTok @spanx", "Facebook", "X/Twitter", "Email (15% off signup)", "SMS marketing", "SPANX Icon Rewards loyalty", "Spanx Society community", "Stylist live chat", "LinkedIn"]),
+    heroHeadline: "Short & Sweet — new styles in stretch twill, premium denim, and lounge collections.",
+    heroCta: "SHOP SUMMER SHORTS",
+    trustSignals: JSON.stringify(["2,143 reviews on top ponte pant", "Best Seller badge", "Free shipping + free returns in header", "SPANXsupersmooth™ trademark", "AirEssentials® trademark", "SPANX Icon Rewards program", "'Real People Real SPANX' UGC section"]),
+    promoOffer: "15% off first order (email + SMS), free standard shipping + free returns always",
+    conversionScore: 9,
+    bestPractices: JSON.stringify([
+      "Free shipping AND free returns in the very first line of the page — eliminates top purchase hesitation",
+      "15% off popup captures email + phone simultaneously (double list-building)",
+      "Witty copy voice ('Short & Sweet', 'Who wears short shorts?') builds emotional affinity",
+      "Purpose statement ('Elevating Women') anchors brand identity beyond products",
+      "Best Seller badges on 2,143-review product create massive social proof credibility",
+      "TikTok presence drives massive awareness via short-form video content",
+      "Proprietary trademarked fabric names create brand recall and search equity"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Make free returns always-on and announce it in the first line of every page",
+      "Develop a witty, distinctive copy voice beyond generic product descriptions",
+      "Use TikTok for product demos and 'ponte pants try-on' content",
+      "Add a brand purpose statement to the homepage and About page",
+      "Create a named proprietary feature (e.g., DuetteNYC WideComfort™ Waistband)"
+    ]),
+    reviewCount: "2,143",
+    rating: "4.3",
+    hasBestseller: 1,
+    hasSustainability: 1,
+    hasPetiteTall: 1,
+  },
+  {
+    name: "Eileen Fisher",
+    url: "https://www.eileenfisher.com",
+    segment: "Sustainable Contemporary",
+    garmentFocus: "Full women's wardrobe — pants, tops, dresses, knitwear, jackets. Linen, silk, organic cotton, fair trade certified. Renew resale platform.",
+    targetCustomer: "Women 40–65+, values-driven, sustainability-first, minimalist aesthetic. Certified B Corporation. Sizes XXS–3X.",
+    annualRevenue: "$57M – $75M (2024–2025)",
+    priceRange: "$78 – $398",
+    priceTier: "Contemporary",
+    seoKeywords: JSON.stringify(["linen pants women", "sustainable women's clothing", "ponte wide leg trouser", "organic cotton clothing women", "simple wardrobe women", "ethical fashion", "women's clothing XXS 3X", "B Corp fashion brand"]),
+    marketingStrategy: "Sustainability as identity, not afterthought. 'A Simple Wardrobe' and 'A Sustainable Life' as nav pillars. Renew secondhand resale platform. Certified B Corporation. Emotion-first hero copy. Proportion Play styling education content.",
+    primaryChannels: JSON.stringify(["Instagram @eileenfisherny", "TikTok @eileenfisherny", "Facebook", "Pinterest", "YouTube", "Threads", "Email (15% off signup)", "SMS text alerts", "Journal / blog editorial", "Eileen Fisher Renew resale site"]),
+    heroHeadline: "Never underestimate the feeling of a really good outfit.",
+    heroCta: "Shop New Arrivals",
+    trustSignals: JSON.stringify(["Certified B Corporation badge", "Free shipping + free returns always", "Sizes XXS–3X (inclusive sizing banner)", "Renew resale program (sustainability credibility)", "Fair Trade Certified materials", "100% recommendation rate on ponte pant"]),
+    promoOffer: "15% off email signup, 15% off SMS signup, free shipping + free returns on all US orders",
+    conversionScore: 9,
+    bestPractices: JSON.stringify([
+      "Emotion-first hero copy ('Never underestimate the feeling of a really good outfit') leads with feeling, not product",
+      "Sustainability is a top-level nav pillar — equal weight to Shop — signals authentic values",
+      "Renew resale platform creates a secondary revenue stream and circular economy story",
+      "Certified B Corporation badge provides third-party credibility beyond self-claims",
+      "Proportion Play styling content educates customers, builds confidence, increases basket size",
+      "Dual lead capture (email + SMS) without feeling aggressive — incentivized + non-pushy"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Write emotion-first hero copy that leads with feeling, not fabric specs",
+      "Pursue B Corporation certification to formalize sustainability credentials",
+      "Create a 'Style Guide' or 'Outfit Builder' content section to educate and convert",
+      "Add free returns as an always-on policy and announce it above the fold",
+      "Position 'A Simple Wardrobe' philosophy as editorial content hub — DuetteNYC has this story naturally"
+    ]),
+    reviewCount: "9",
+    rating: "4.9",
+    hasBestseller: 0,
+    hasSustainability: 1,
+    hasPetiteTall: 1,
+  },
+  {
+    name: "J.Crew",
+    url: "https://www.jcrew.com",
+    segment: "Accessible Mid-Market",
+    garmentFocus: "Full women's, men's, and kids' apparel. Ponte bootleg pants (Kaya Pant), linen, charmeuse, four-season stretch. Swim, dresses, accessories.",
+    targetCustomer: "Women 25–45, men secondary, families. Coastal-preppy, aspirational, moderately affluent. Teachers, students, first responders discounts.",
+    annualRevenue: "$2.3B – $3B (2024 est.)",
+    priceRange: "$48 – $298",
+    priceTier: "Mid",
+    seoKeywords: JSON.stringify(["Kaya pant bootleg", "women's ponte pants", "four season stretch pants", "women's best sellers", "new dresses", "women's swim", "preppy clothing women", "work pants women bootcut"]),
+    marketingStrategy: "Event-framed promotions ('Friends & Family Event'). Tiered loyalty + credit card ecosystem (J.Crew Passport). Named sale events vs generic discounts. Personalized product carousels. Distinctive email capture voice ('Like Being First?'). Multi-platform social presence.",
+    primaryChannels: JSON.stringify(["Instagram @jcrew", "Facebook", "Pinterest", "YouTube jcrewinsider", "X/Twitter", "LinkedIn", "Email newsletter ('Like Being First?')", "SMS", "J.Crew Passport loyalty program", "J.Crew Credit Card (Synchrony Bank)", "Mobile app", "Madewell + J.Crew Factory sister brands"]),
+    heroHeadline: "The Friends & Family Event — 30% off your purchase, now open to everyone.",
+    heroCta: "SHOP NOW",
+    trustSignals: JSON.stringify(["J.Crew Passport loyalty program", "74 reviews / 4.8★ on Kaya Pant", "Best Seller badge on Kaya Pant", "Afterpay available", "Belonging & Equity commitment", "Personalized product recommendations", "6 social media channels"]),
+    promoOffer: "30% off sitewide (Friends & Family), 40% off with J.Crew credit card, 20% off new card opening",
+    conversionScore: 8,
+    bestPractices: JSON.stringify([
+      "Named event marketing ('Friends & Family') makes discounts feel like occasions, not desperation",
+      "Tiered loyalty program (free tier + credit card tiers) creates powerful retention flywheel",
+      "Split editorial + product imagery serves both emotional and rational shoppers simultaneously",
+      "Personalized homepage carousel ('Top Picks in Your Recent Categories') boosts repeat visit conversion",
+      "Email capture with distinctive voice ('Like Being First?') — premium, not generic",
+      "Explicit 'Best Seller' badge on most-reviewed product (74 reviews, 4.8★) is conversion gold"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Frame promotions as named events (e.g., 'The Duette Founding Customer Event') to preserve brand equity",
+      "Build a free loyalty program tier with simple perks — early access, bundle discounts",
+      "Use 'Best Seller' badges strategically on highest-reviewed products only",
+      "Develop a distinctive email capture CTA voice that reflects brand personality",
+      "Add personalized 'Recently Viewed' or 'You Might Also Like' carousels to homepage"
+    ]),
+    reviewCount: "74",
+    rating: "4.8",
+    hasBestseller: 1,
+    hasSustainability: 1,
+    hasPetiteTall: 1,
+  },
+  {
+    name: "Ann Taylor",
+    url: "https://www.anntaylor.com",
+    segment: "Accessible Mid-Market",
+    garmentFocus: "Women's professional and occasion wear — ponte trousers (Jayne Trouser), dresses, suits, tops, skirts. Haven Well Within organic sub-brand.",
+    targetCustomer: "Professional women 30–55, work-to-occasion dresser, middle-to-upper-middle income. Heritage brand (est. 1954). Petites focus.",
+    annualRevenue: "$400M (2025 est.)",
+    priceRange: "$29 – $249",
+    priceTier: "Value-Mid",
+    seoKeywords: JSON.stringify(["ponte trouser women", "work pants women", "women's suits", "Jayne trouser ponte", "petite dress pants women", "professional women's clothing", "event season style", "workwear women"]),
+    marketingStrategy: "Layered promotional architecture (multiple concurrent deals). Event-framed sales ('Friends of ANN'). UGC community ('You Make Us Look Good' / #ThisIsAnn). StyleRewards loyalty. Dual nav pillars: Work + Weekend. Haven Well Within organic sub-brand for sustainability angle.",
+    primaryChannels: JSON.stringify(["Instagram @AnnTaylor", "TikTok @anntaylor", "Pinterest @anntaylorstyle", "Facebook", "Email (extra 10% off signup)", "SMS", "StyleRewards loyalty program", "Ann Taylor Credit Card (Comenity)", "UGC / micro-influencer #ThisIsAnn", "Store experience / omnichannel"]),
+    heroHeadline: "The Friends of ANN Event — 30% OFF Your Purchase Including New Arrivals.",
+    heroCta: "Shop All / Shop New Arrivals",
+    trustSignals: JSON.stringify(["400+ new styles each season", "StyleRewards loyalty program", "'You Make Us Look Good' UGC with real customer Instagram handles", "#ThisIsAnn community hashtag", "Haven Well Within organic certified sub-brand", "Petites dedicated nav (underserved market)", "Free shipping at $150+"]),
+    promoOffer: "40% off one item today only + 30% off entire purchase + extra 10% off email signup (stackable)",
+    conversionScore: 8,
+    bestPractices: JSON.stringify([
+      "Layered concurrent promotions at 3 different incentive levels capture deal-seekers AND loyalty builders simultaneously",
+      "'You Make Us Look Good' UGC section with real Instagram handles is more trustworthy than anonymous reviews",
+      "Named event marketing ('Friends of ANN') transforms discount into community occasion",
+      "Work + Weekend dual navigation maps to customer's actual lifestyle occasions, not just product types",
+      "Email popup offers stacked reward during active sale — maximum perceived value timing"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Create a #ThisIsDuette UGC hashtag campaign to build community and collect authentic social proof",
+      "Add 'You Make Us Look Good' style section with real customer Instagram tags on the homepage",
+      "Architect navigation around lifestyle occasions (Work, Weekend, Travel) not just garment types",
+      "Launch a Haven-style sub-brand for DuetteNYC's sustainable Ecovero line",
+      "Stack promotional offers during limited-time events to maximize email + SMS capture"
+    ]),
+    reviewCount: "18",
+    rating: "4.0",
+    hasBestseller: 0,
+    hasSustainability: 1,
+    hasPetiteTall: 1,
+  },
+  {
+    name: "Theory",
+    url: "https://www.theory.com",
+    segment: "Contemporary Luxury",
+    garmentFocus: "Women's and men's contemporary RTW — ponte flare legging, blazers, pants, knitwear. Proprietary fabrics: Motion Ponte, Bilen, Moonsoft Cotton, Washed Twill, Linen.",
+    targetCustomer: "Urban professionals 28–50, NYC-centric, affluent. 'Fabric authority' positioning. Capsule wardrobe builders, investment dressers.",
+    annualRevenue: "$81M – $110M (2025 est.)",
+    priceRange: "$90 – $595",
+    priceTier: "Contemporary Luxury",
+    seoKeywords: JSON.stringify(["linen blazer women", "contemporary women's clothing", "ponte flare legging", "washed twill jacket", "women's dress pants NYC", "capsule wardrobe women", "Theory wardrobe", "Bilen knitwear"]),
+    marketingStrategy: "Fabric-as-story editorial campaigns ('Life in Linen', 'World of Bilen'). Proprietary fabric naming creates exclusive product identity. Owned media ecosystem: Theories Magazine, Substack, mobile app. NYC cultural authority via 'New Yorkers we love' editorial. Graduation Shop occasion marketing.",
+    primaryChannels: JSON.stringify(["Email (15% off signup)", "Mobile app (exclusive code APPX15)", "Substack newsletter", "Theories Magazine (in-house editorial)", "myTheory loyalty program", "In-store (global locations)", "Klarna + Affirm BNPL", "Student / graduate discount"]),
+    heroHeadline: "Life in Linen — Quiet moments featuring spring's quintessential fabric.",
+    heroCta: "WOMEN'S NEW ARRIVALS / MEN'S NEW ARRIVALS",
+    trustSignals: JSON.stringify(["4.9★ / 25 reviews on ponte pant (verified buyers)", "Multiple 'bought 2 pairs' repeat-buyer reviews", "myTheory loyalty program", "Klarna + Affirm financing", "App-exclusive promo code", "Substack + Theories Magazine editorial authority", "'True to Size' fit consensus on reviews"]),
+    promoOffer: "15% off first full-price order (email), APPX15 code for app first purchase",
+    conversionScore: 8,
+    bestPractices: JSON.stringify([
+      "Fabric-as-story campaigns ('Life in Linen') create SEO content clusters AND brand differentiation",
+      "Proprietary fabric names (Bilen, Moonsoft Cotton, Motion Ponte) build branded search equity",
+      "Owned media ecosystem (Substack + Theories Magazine) reduces paid media dependency long-term",
+      "Shoppable fabric spotlights with carousels compress discovery-to-purchase journey",
+      "App-exclusive incentive (APPX15) drives mobile app downloads AND first purchases simultaneously",
+      "Fabric education content ('1 capsule, 6 styles, endless ways') upsells outfit building"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Name DuetteNYC's Ecovero fabric with a proprietary brand name ('EcoLux Ponte' or 'DuettePonte™')",
+      "Build editorial content clusters around fabric and fit: 'The Science of Ponte' blog post series",
+      "Start a Substack or email editorial series building thought leadership in sustainable fashion",
+      "Create shoppable outfit builder: '1 Essex Pant, 6 Ways to Wear It'",
+      "Launch a mobile app with app-exclusive first-purchase incentive to build direct channel"
+    ]),
+    reviewCount: "25",
+    rating: "4.9",
+    hasBestseller: 0,
+    hasSustainability: 0,
+    hasPetiteTall: 1,
+  },
+  {
+    name: "Commando",
+    url: "https://www.wearcommando.com",
+    segment: "Technical Premium",
+    garmentFocus: "Women's second-skin basics — leggings, bodysuits, neoprene flare pants, shapewear, hosiery, intimates. By Fabric nav: Butter™, Faux Leather, Italian Neoprene, Do It All Denim™.",
+    targetCustomer: "Women 25–45, professional and lifestyle. CEO Collection™ for career women, Lounge for comfort, Wedding Shop for milestones. Quiet luxury aesthetic.",
+    annualRevenue: "$17M – $23M (est.)",
+    priceRange: "$46 – $208",
+    priceTier: "Premium",
+    seoKeywords: JSON.stringify(["butter leggings women", "faux leather leggings", "Italian neoprene flare pant", "CEO collection women", "neoprene pants women", "women's bodysuits", "commando butter fabric", "second skin leggings"]),
+    marketingStrategy: "Fabric-first innovation with proprietary trademarked names (Butter™, Do It All Denim™). By Fabric navigation creates SEO landing pages. Founder's Collection emotional storytelling. CEO Collection™ for professional women. Segmented email signup (Womens/Mens/Both). Press / In The Press page.",
+    primaryChannels: JSON.stringify(["Instagram @wearcommando", "Pinterest @wearcommando", "Facebook", "TikTok @wearcommando", "Email (segmented by gender)", "Blog", "Press / Commando In The Press", "Wholesale channel", "Afterpay"]),
+    heroHeadline: "THE FOUNDER'S COLLECTION — [cinematic full-bleed, no subhead]",
+    heroCta: "SHOP NOW",
+    trustSignals: JSON.stringify(["40 reviews / 4.4★ on neoprene flare pant", "Commando In The Press page", "Italian fabric provenance (Italian Neoprene, Italian Microfiber)", "Founder's Collection (founder credibility)", "Wholesale page (retail distribution signal)", "Essential Accessibility badge", "Our Impact sustainability page"]),
+    promoOffer: "Free shipping on US orders $75+, free economy shipping to CA, AU, UK",
+    conversionScore: 7,
+    bestPractices: JSON.stringify([
+      "'By Fabric' navigation creates SEO landing pages for fabric-specific searches AND educates customers",
+      "Founder's Collection hero creates emotional resonance and brand heritage narrative",
+      "Proprietary trademarked fabric names (Butter™) build brand recall and search equity",
+      "Cinematic full-bleed editorial hero photography signals luxury without text clutter",
+      "Segmented email signup (Womens/Mens/Both) enables targeted campaigns from first touchpoint",
+      "Dedicated press page builds brand authority for press outreach"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Create a 'By Occasion' or 'By Use Case' navigation (Work, Travel, Weekend) mirroring Commando's By Fabric approach",
+      "Name the DuetteNYC founder in the brand story — humanize the brand with a Founder's Edit or Founder's Letter",
+      "Build a dedicated Press page even before major placements — signal that press matters",
+      "Use cinematic product photography with lifestyle environments, not white-background stock",
+      "Trademark and name the DuetteNYC waistband technology formally"
+    ]),
+    reviewCount: "40",
+    rating: "4.4",
+    hasBestseller: 0,
+    hasSustainability: 0,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "Vince",
+    url: "https://www.vince.com",
+    segment: "Contemporary Luxury",
+    garmentFocus: "Women's and men's luxury RTW — crepe bias pants, silk, leather, cotton. California-cool minimalist aesthetic. European sourcing (Portugal, Italy). Pant Fit Guide feature.",
+    targetCustomer: "Affluent professionals 28–50, quiet luxury / stealth wealth, California-inspired. Investment dressers who shop Nordstrom and Net-a-Porter.",
+    annualRevenue: "$293M – $300M (FY2024–2025)",
+    priceRange: "$118 – $595",
+    priceTier: "Luxury",
+    seoKeywords: JSON.stringify(["luxury women's pants", "California style women", "crepe bias pant", "silk women clothing", "women's pant fit guide", "best seller women's pants", "contemporary luxury women's clothing", "European made women's clothing"]),
+    marketingStrategy: "Material-led storytelling ('Cottons, silks and leathers'). California lifestyle campaign narrative ('Spring's California Canvas'). Pant Fit Guide as educational content-commerce hybrid. Rotating announcement bar with 3 targeted messages. Dual email + SMS acquisition.",
+    primaryChannels: JSON.stringify(["Instagram @vince", "TikTok @vince", "Pinterest @vincesays", "Facebook @VINCESAYS", "Email (15% off signup)", "SMS marketing (Attentive)", "Account loyalty / personalization", "Nordstrom wholesale (26% of sales)", "Investors.vince.com"]),
+    heroHeadline: "Spring's California Canvas — Cottons, silks and leathers shift between indoor-outdoor, day-to-night moments.",
+    heroCta: "Shop Women's / Shop Men's",
+    trustSignals: JSON.stringify(["'Best-selling' in product copy (Colette Pant)", "European sourcing (Portugal, Italy)", "Pant Fit Guide (educational authority)", "15% off popup (email + SMS)", "Personalized 'Sign in' account prompt", "Publicly traded company (Vince Holding Corp.)"]),
+    promoOffer: "15% off first full-price order (email), 15% off (SMS), free shipping threshold",
+    conversionScore: 8,
+    bestPractices: JSON.stringify([
+      "Material-led hero copy ('Cottons, silks and leathers') signals luxury and quality without promotional language",
+      "Pant Fit Guide as educational content-commerce hybrid drives category authority and SEO",
+      "Dual email + SMS acquisition popups run sequentially — maximizes channel capture",
+      "Rotating 3-message announcement bar addresses different customer motivations (newness, education, gender)",
+      "Segmented gender CTAs throughout (Women's / Men's) prevent dead-end navigation"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Create a 'Ponte Pants Fit Guide' as a content-commerce page for DuetteNYC — educational authority builder",
+      "Lead product copy with fabric and feel ('Ecovero ponte that moves with you') not garment type",
+      "Add SMS capture as a second list-building channel alongside email",
+      "Write campaign narratives ('The New York Uniform', 'The 5-Day Pant') that evoke a lifestyle, not a product",
+      "Create a dedicated 'Best Sellers' landing page optimized for SEO"
+    ]),
+    reviewCount: "0",
+    rating: "N/A",
+    hasBestseller: 1,
+    hasSustainability: 1,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "Helmut Lang",
+    url: "https://www.helmutlang.com",
+    segment: "Contemporary Designer",
+    garmentFocus: "Denim, jackets, trousers, dresses, knitwear. Ponte Bootcut Pants (most direct competitor). Wardrobe Capsule sub-line. Leather accessories. New York minimalist aesthetic.",
+    targetCustomer: "Urban fashion-forward 25–45, creative professionals, architectural/minimal aesthetic. 'Restraint, adaptability, clarity of form.'",
+    annualRevenue: "$38M (est.)",
+    priceRange: "$195 – $1,500+",
+    priceTier: "Designer",
+    seoKeywords: JSON.stringify(["Helmut Lang ponte bootcut", "luxury women's denim", "wardrobe capsule NYC", "minimalist fashion NYC", "women's designer trouser", "luxury women's jacket", "ponte bootcut pants", "NY luxury clothing"]),
+    marketingStrategy: "Minimalist brand confidence — no promotional clutter signals luxury. Wardrobe Capsule philosophy ('restraint, adaptability, clarity of form'). Spend-threshold promotion ($400 = $100 off) drives AOV. Newsletter 15% off. Celebrity initials collection (RHW = Rosie Huntington-Whiteley — at WARDROBE.NYC). Lookbook editorial content.",
+    primaryChannels: JSON.stringify(["Instagram @helmutlang", "X/Twitter @helmutlang", "Facebook (UTM-tracked)", "Email (15% off first full-price)", "Lookbook / Spring 2026 editorial", "Spend-threshold promotions"]),
+    heroHeadline: "WOMEN'S NEW ARRIVALS / MEN'S NEW ARRIVALS [split hero, no subhead]",
+    heroCta: "SHOP NOW",
+    trustSignals: JSON.stringify(["Spend $400 Take $100 Off (AOV threshold)", "15% off newsletter signup", "Wardrobe Capsule editorial ('restraint, adaptability, clarity of form')", "Lookbook / Spring 2026 Collection", "© 2026 HELMUT LANG NEW YORK LLC (heritage signal)", "Ponte Bootcut Pants — named directly"]),
+    promoOffer: "Spend $400, take $100 off; 15% off first full-price purchase (newsletter)",
+    conversionScore: 7,
+    bestPractices: JSON.stringify([
+      "Spend-threshold promotion ($400 = $100 off) drives AOV upward elegantly — not a percentage discount",
+      "Wardrobe Capsule copy ('restraint, adaptability, clarity of form') is sophisticated brand writing that builds equity",
+      "No promotional clutter on homepage — restraint itself signals luxury to the target customer",
+      "Newsletter incentive (15% off full-price only) protects margins while building list",
+      "Lookbook editorial content bridges fashion credibility and commerce, feeds social and SEO"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Test a spend-threshold offer (e.g., 'Buy 2 Essex Pants, save $30') instead of percentage discounts",
+      "Write brand voice copy that uses 'restraint' and 'timelessness' language — DuetteNYC has this story",
+      "Create a seasonal Lookbook to bridge editorial credibility and product sales",
+      "Name your core wardrobe philosophy explicitly — DuetteNYC's 'the pant you reach for again and again' is close"
+    ]),
+    reviewCount: "0",
+    rating: "N/A",
+    hasBestseller: 0,
+    hasSustainability: 0,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "WARDROBE.NYC",
+    url: "https://wardrobe.nyc",
+    segment: "Designer Minimalist",
+    garmentFocus: "Curated luxury women's RTW — trench coats, blazers, leggings, RHW Stretch Trouser, bodysuits, lace, denim. Italian stretch fabric. Edited, not broad, assortment.",
+    targetCustomer: "Fashion-literate women 25–40, upper-income, creative professionals. 'Shared aesthetic values.' NYC + global cities. Not logo-driven.",
+    annualRevenue: "$4M – $15M (est.)",
+    priceRange: "$500 – $2,350+",
+    priceTier: "Luxury",
+    seoKeywords: JSON.stringify(["luxury essentials women", "minimalist wardrobe NYC", "RHW collection Rosie Huntington-Whiteley", "luxury trench coat women", "designer bodysuits women", "WARDROBE.NYC", "luxury stretch trouser", "minimal fashion NYC"]),
+    marketingStrategy: "Radical restraint as luxury signal — no promotional banners, no star ratings, pure editorial. Celebrity collaboration (RHW = Rosie Huntington-Whiteley) as permanent collection. Direct DTC model ('egalitarian luxury'). Instagram as sole social channel. Newsletter-only list building.",
+    primaryChannels: JSON.stringify(["Instagram @wardrobe.nyc (sole social)", "Newsletter / email (entry popup)", "Pay Over Time / Afterpay", "RHW celebrity collaboration (PR amplification)", "Archive Sale for entry price points"]),
+    heroHeadline: "NEW SEASON [full-bleed editorial, no subhead]",
+    heroCta: "None visible — hero itself is clickable",
+    trustSignals: JSON.stringify(["RHW Celebrity Collaboration (Rosie Huntington-Whiteley)", "Free shipping domestic ($250+ international)", "Pay Over Time / Afterpay for high AOV", "Italian fabric provenance", "Archive Sale (controlled entry price point)", ".nyc TLD (NYC fashion authority signal)"]),
+    promoOffer: "Free shipping domestic orders, international express $250+; Archive Sale items final sale",
+    conversionScore: 6,
+    bestPractices: JSON.stringify([
+      "No promotional clutter IS the brand message — luxury positioning through editorial restraint",
+      "Celebrity collaboration (RHW) as permanent nav category creates ongoing authority and discoverability",
+      "Hero as navigation (clickable editorial image, no separate CTA button) reduces friction elegantly",
+      "Archive Sale creates controlled entry price point without damaging full-price brand perception",
+      "Single social channel (Instagram only) — depth over breadth, consistent brand visual identity"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Pursue one high-visibility collaboration (stylist, influencer, or editor) as a named sub-collection",
+      "Create a 'DuetteNYC Archive' for past-season colors or styles at a controlled entry price",
+      "Consider reducing social channel count to focus effort — one excellent Instagram > four mediocre channels",
+      "Use hero imagery as navigation — clicking campaign image goes directly to the featured collection"
+    ]),
+    reviewCount: "0",
+    rating: "N/A",
+    hasBestseller: 0,
+    hasSustainability: 0,
+    hasPetiteTall: 0,
+  },
+  {
+    name: "Wolford",
+    url: "https://www.wolford.com",
+    segment: "Luxury Knit",
+    garmentFocus: "Hosiery, tights, bodysuits, legwear, RTW. Grazia Trousers (ponte-adjacent). Mat de Luxe proprietary fabric, merino, cashmere, sustainable collection, vegan leather.",
+    targetCustomer: "Women 25–50, European luxury shoppers, well-traveled professionals. 75-year heritage brand (Austrian). 'Effortless sophistication, unparalleled femininity.'",
+    annualRevenue: "€88M (~$97M USD, 2024 — down 30% from €126M in 2023)",
+    priceRange: "$40 – $465",
+    priceTier: "Luxury",
+    seoKeywords: JSON.stringify(["luxury tights women", "Wolford hosiery", "luxury bodysuits women", "sheer tights women", "Mat de Luxe tights", "luxury legwear", "travel edit women", "W.O.W. leggings"]),
+    marketingStrategy: "Heritage authority (75 years, Austrian craftsmanship). Travel Edit and Office Looks curated lifestyle collections. Back In Stock urgency section. Triple-value rotating announcement bar (new collection + free shipping + newsletter 10% off). Etro X Wolford co-branding collaboration.",
+    primaryChannels: JSON.stringify(["Instagram @wolford", "Facebook @WolfordFashion", "Newsletter (10% off + private sales access)", "Store Locator (physical retail)", "Sustainability page", "Etro X Wolford collaboration (co-branding PR)", "Sale / Outlet (up to 75% off)"]),
+    heroHeadline: "NEW ARRIVALS / TRAVEL EDIT / DRESS-UP DELIGHT [rotating carousel]",
+    heroCta: "SHOP NOW",
+    trustSignals: JSON.stringify(["75th Anniversary heritage", "Free ground shipping on all orders", "Back In Stock urgency section ('The Wait Is Over')", "Mat de Luxe proprietary fabric (75 years development)", "Etro X Wolford collaboration", "Sustainable Collection + Vegan Leather", "Store locator (global retail presence)"]),
+    promoOffer: "10% off newsletter signup + access to private sales; free ground shipping on all orders; Sale up to 75% off",
+    conversionScore: 7,
+    bestPractices: JSON.stringify([
+      "Triple-value announcement bar rotates through 3 distinct motivations — newness, convenience, savings",
+      "Back In Stock section ('The Wait Is Over') creates urgency + social proof simultaneously without gimmicks",
+      "Travel Edit and Office Looks lifestyle curation reduces decision fatigue, increases basket size",
+      "Newsletter incentive lists multiple benefits (10% off + private sales + first-look + styling tips) — multi-benefit framing",
+      "Co-branding (Etro X Wolford) creates press moments and discovery from a complementary brand audience"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Add a 'Back in Stock' or 'Restock Alert' section to the DuetteNYC homepage to signal demand",
+      "Curate lifestyle-occasion collections: 'The Work Edit', 'The Travel Pant', 'The Weekend Uniform'",
+      "Rotate announcement bar through 3 different value messages (new drop + free returns + sustainability story)",
+      "Partner with a complementary brand (e.g., a sustainable blouse brand) for a co-branded capsule",
+      "Build a multi-benefit newsletter signup value prop — not just 'get 15% off' but list 3–4 exclusive perks"
+    ]),
+    reviewCount: "0",
+    rating: "N/A",
+    hasBestseller: 0,
+    hasSustainability: 1,
+    hasPetiteTall: 0,
+  },
+];
+
+export class Storage implements IStorage {
+  getAllCompetitors(): Competitor[] {
+    return db.select().from(competitors).all();
+  }
+
+  getCompetitor(id: number): Competitor | undefined {
+    return db.select().from(competitors).where(eq(competitors.id, id)).get();
+  }
+
+  createCompetitor(data: InsertCompetitor): Competitor {
+    return db.insert(competitors).values(data).returning().get();
+  }
+
+  seedIfEmpty(): void {
+    const existing = db.select().from(competitors).all();
+    if (existing.length === 0) {
+      for (const item of SEED_DATA) {
+        db.insert(competitors).values(item).run();
+      }
+    }
+  }
+}
+
+import { eq } from "drizzle-orm";
+export const storage = new Storage();

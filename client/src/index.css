@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,300;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* DuetteNYC palette — deep charcoal + warm ivory + teal accent */
+    --background: 40 15% 97%;
+    --foreground: 210 20% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 12%;
+
+    /* Teal — brand accent */
+    --primary: 175 97% 21%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 15% 93%;
+    --secondary-foreground: 210 20% 20%;
+
+    --muted: 40 15% 93%;
+    --muted-foreground: 210 10% 45%;
+
+    --accent: 175 40% 92%;
+    --accent-foreground: 175 97% 18%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 12% 88%;
+    --input: 210 12% 88%;
+    --ring: 175 97% 21%;
+
+    --radius: 0.5rem;
+
+    /* Custom semantic */
+    --duette-gold: 43 100% 40%;
+    --duette-surface: 40 20% 98%;
+    --duette-teal-light: 175 60% 94%;
+    --duette-segment-boutique: 175 97% 21%;
+    --duette-segment-mid: 210 60% 40%;
+    --duette-segment-contemporary: 271 60% 45%;
+    --duette-segment-luxury: 43 80% 38%;
+    --duette-segment-designer: 0 60% 40%;
+  }
+
+  .dark {
+    --background: 210 20% 8%;
+    --foreground: 40 15% 93%;
+    --card: 210 18% 11%;
+    --card-foreground: 40 15% 93%;
+    --popover: 210 18% 11%;
+    --popover-foreground: 40 15% 93%;
+    --primary: 175 70% 40%;
+    --primary-foreground: 210 20% 8%;
+    --secondary: 210 15% 18%;
+    --secondary-foreground: 40 15% 80%;
+    --muted: 210 15% 18%;
+    --muted-foreground: 210 10% 55%;
+    --accent: 175 30% 18%;
+    --accent-foreground: 175 70% 60%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 12% 22%;
+    --input: 210 12% 22%;
+    --ring: 175 70% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground)); }
+
+/* Smooth transitions */
+* { transition-property: color, background-color, border-color; transition-duration: 150ms; }
+
+/* Score ring animation */
+@keyframes score-fill {
+  from { stroke-dashoffset: 100; }
+  to { stroke-dashoffset: var(--target-offset); }
+}
+
+.score-ring circle {
+  animation: score-fill 1s ease-out forwards;
+}
