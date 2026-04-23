@@ -458,6 +458,46 @@ const SEED_DATA: InsertCompetitor[] = [
     hasSustainability: 1,
     hasPetiteTall: 0,
   },
+  {
+    name: "Ripley Rader",
+    url: "https://ripleyrader.com",
+    segment: "Premium DTC",
+    garmentFocus: "Ponte knit 'magic pants' — wide leg, cropped, straight. Hero SKU: The Perfect Pant ($198). All styles American-made in Downtown LA.",
+    targetCustomer: "Women 35–65 seeking polished, versatile pants that go from work to weekend. Quality-first buyers who value American manufacturing and slow fashion.",
+    annualRevenue: "$40M+ (2024–2025, featured in Forbes '19 Apparel Brands Earning $40M with Under 10 Employees')",
+    priceRange: "$198 – $220",
+    priceTier: "Premium",
+    seoKeywords: JSON.stringify(["ponte knit wide leg pant", "the perfect pant", "black ponte pants women", "made in america women's pants", "wide leg pants high waisted", "slow fashion ponte knit", "quiet luxury workwear"]),
+    marketingStrategy: "Viral social-first DTC. 'The Perfect Pant' hero SKU strategy — everything else supports the pant. Founder-led storytelling. Aggressive TikTok/Instagram paid + organic. 20% first-order email popup. American-made manufacturing as core brand pillar. Press placements (Forbes, TODAY, Vogue) drive credibility. Mobile app for repeat buyers.",
+    primaryChannels: JSON.stringify(["TikTok (@shopripleyrader)", "Instagram (@shopripleyrader)", "Facebook", "Pinterest", "Email (20% off popup)", "Mobile app (iOS + Android)", "Press / PR (Forbes, TODAY, Vogue)"]),
+    heroHeadline: "SPRING 3 IS HERE.",
+    heroCta: "SHOP NOW",
+    trustSignals: JSON.stringify(["FREE U.S. SHIPPING OVER $140 (persistent header bar)", "30 DAY RETURNS", "PROUDLY MADE IN AMERICA (US flag icon)", "As Seen In: Forbes, TODAY, Vogue", "'Real Women are Saying' testimonials section", "Slow fashion / Downtown LA factory story", "Apple Pay, Shop Pay, Amazon Pay, PayPal"]),
+    promoOffer: "20% off first order via email capture popup",
+    conversionScore: 7,
+    bestPractices: JSON.stringify([
+      "'The Perfect Pant' as a dedicated nav item — hero SKU gets its own navigation slot, not buried in collections",
+      "Persistent 3-message header bar: shipping + returns + made-in-USA — three distinct trust motivations always visible",
+      "Founder-led viral marketing — raw, authentic founder content drives massive organic reach on TikTok/Instagram",
+      "20% first-order email popup with single clear CTA ('CLAIM 20% OFF') — high-converting email capture",
+      "Press logos (Forbes, TODAY, Vogue) on product pages directly where purchase decision is made",
+      "Mobile app for iOS + Android — repeat buyer loyalty channel most DTC brands skip",
+      "'Consciously Crafted' + 'Made in America' woven into every product page — not just an About page claim"
+    ]),
+    replicableInsights: JSON.stringify([
+      "Give the Essex Boot Leg Pant its own nav item — 'The Essex Pant' — making the hero SKU impossible to miss",
+      "Add a persistent 3-message announcement bar cycling: free shipping threshold + return policy + Ecovero sustainability story",
+      "Launch a founder-led TikTok series showing the pant in real daily life — raw authenticity outperforms polished ads at this stage",
+      "Replace generic 'Shop Now' CTA with specific benefit: 'Find Your Perfect Fit' or 'Shop The Essex Pant'",
+      "Add 'Made with Ecovero' badge to every product page — not just homepage — mirroring Ripley Rader's American-made repetition",
+      "Build a first-order email popup offering a specific incentive (% off or free shipping) to capture leads before they bounce"
+    ]),
+    reviewCount: "curated testimonials only",
+    rating: "N/A (no third-party reviews shown)",
+    hasBestseller: 1,
+    hasSustainability: 1,
+    hasPetiteTall: 0,
+  },
 ];
 
 export class Storage implements IStorage {
