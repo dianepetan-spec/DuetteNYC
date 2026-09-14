@@ -164,6 +164,29 @@ function useCompetitors() {
   });
 }
 
+function useMeta() {
+  return useQuery<{ lastUpdated?: string }>({
+    queryKey: ['/competitors-meta.json'],
+    queryFn: async () => {
+      const res = await fetch('/competitors-meta.json');
+      if (!res.ok) return {};
+      return res.json();
+    },
+  });
+}
+
+function formatLastUpdated(iso: string | undefined): string {
+  if (!iso) return 'Loading…';
+  const d = new Date(iso + 'T12:00:00');
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function LastUpdatedLabel() {
+  const { data } = useMeta();
+  return <span className="text-xs text-muted-foreground hidden sm:block">Last updated: {formatLastUpdated(data?.lastUpdated)}</span>;
+}
+
 // ─── Overview Page ────────────────────────────────────────────────────────────
 function OverviewPage() {
   const { data: brands = [], isLoading } = useCompetitors();
@@ -979,7 +1002,7 @@ export default function App() {
               <h1 className="text-sm font-semibold hidden md:block text-muted-foreground">DuetteNYC Competitor Intelligence</h1>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-xs text-muted-foreground hidden sm:block">Last updated: Apr 23, 2026</span>
+              <LastUpdatedLabel />
               <button onClick={toggle} className="p-2 rounded-lg hover:bg-muted text-muted-foreground" data-testid="button-theme">
                 {dark ? <Sun className="w-4 h-4"/> : <Moon className="w-4 h-4"/>}
               </button>
