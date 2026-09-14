@@ -25,8 +25,11 @@ function useTheme() {
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
-function parseJSON<T>(str: string, fallback: T): T {
-  try { return JSON.parse(str); } catch { return fallback; }
+// Accepts either a JSON string (legacy shape) or an already-parsed array/object (v3 shape).
+function parseJSON<T>(input: string | T | null | undefined, fallback: T): T {
+  if (input == null) return fallback;
+  if (typeof input !== 'string') return input as T;
+  try { return JSON.parse(input) as T; } catch { return fallback; }
 }
 
 const SEGMENT_COLORS: Record<string, string> = {
@@ -310,11 +313,11 @@ function BrandCard({ brand }: { brand: Competitor }) {
           </div>
           <div className="bg-muted/50 rounded-lg p-2 text-center">
             <p className="text-xs text-muted-foreground">Rating</p>
-            <p className="text-sm font-semibold">{brand.rating === 'N/A' ? '—' : `${brand.rating}★`}</p>
+            <p className="text-sm font-semibold">{brand.rating == null ? '—' : `${brand.rating}★`}</p>
           </div>
           <div className="bg-muted/50 rounded-lg p-2 text-center">
             <p className="text-xs text-muted-foreground">Reviews</p>
-            <p className="text-sm font-semibold">{parseInt(brand.reviewCount.replace(/,/g,'')) > 0 ? brand.reviewCount : '—'}</p>
+            <p className="text-sm font-semibold">{(brand.reviewCount ?? 0) > 0 ? brand.reviewCount!.toLocaleString() : '—'}</p>
           </div>
         </div>
 
@@ -436,8 +439,8 @@ function MatrixPage() {
                   <td className="px-3 py-3 whitespace-nowrap"><span className={`text-xs font-medium ${TIER_COLORS[b.priceTier] || ''}`}>{b.priceTier}</span></td>
                   <td className="px-3 py-3 font-medium whitespace-nowrap">{b.priceRange}</td>
                   <td className="px-3 py-3 text-muted-foreground text-xs whitespace-nowrap">{b.annualRevenue}</td>
-                  <td className="px-3 py-3 whitespace-nowrap">{b.rating === 'N/A' ? <span className="text-muted-foreground">—</span> : <span className="text-amber-600 font-medium">{b.rating}★</span>}</td>
-                  <td className="px-3 py-3 whitespace-nowrap">{parseInt(b.reviewCount.replace(/,/g,'')) > 0 ? <span className="font-medium">{b.reviewCount}</span> : <span className="text-muted-foreground">—</span>}</td>
+                  <td className="px-3 py-3 whitespace-nowrap">{b.rating == null ? <span className="text-muted-foreground">—</span> : <span className="text-amber-600 font-medium">{b.rating}★</span>}</td>
+                  <td className="px-3 py-3 whitespace-nowrap">{(b.reviewCount ?? 0) > 0 ? <span className="font-medium">{b.reviewCount!.toLocaleString()}</span> : <span className="text-muted-foreground">—</span>}</td>
                   <td className="px-3 py-3"><ScoreRing score={b.conversionScore} size={40} /></td>
                   <td className="px-3 py-3 text-center">{b.hasBestseller ? <CheckCircle className="w-4 h-4 text-green-500 mx-auto"/> : <span className="text-muted-foreground text-xs">—</span>}</td>
                   <td className="px-3 py-3 text-center">{b.hasSustainability ? <CheckCircle className="w-4 h-4 text-emerald-500 mx-auto"/> : <span className="text-muted-foreground text-xs">—</span>}</td>

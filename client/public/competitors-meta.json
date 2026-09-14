@@ -1,0 +1,212 @@
+{
+  "lastUpdated": "2026-09-14",
+  "duetteGscBaseline": {
+    "asOf": "2026-09-14",
+    "notes": "Sparse Duette-first-party rankings from Google Search Console. Kept as source of truth; not overwritten by third-party estimates.",
+    "rankings": [
+      {
+        "query": "best black pants",
+        "url": "https://duettenyc.com/collections/best-black-pants",
+        "position": 12,
+        "note": "26 impressions, 0 clicks"
+      },
+      {
+        "query": "cropped ponte pants",
+        "url": "Duette relevant PDP",
+        "position": 7.6,
+        "note": "Quick-win territory"
+      },
+      {
+        "query": "ponte cardigan",
+        "url": "Duette relevant PDP",
+        "position": 6.1,
+        "note": "Quick-win territory"
+      },
+      {
+        "query": "wide leg jersey pants",
+        "url": "https://duettenyc.com/products/the-liberty",
+        "position": 13.7,
+        "note": "Near-page-one"
+      },
+      {
+        "query": "leatherette pants",
+        "url": "https://duettenyc.com/collections/vegan-leather",
+        "position": 13.6,
+        "note": "Near-page-one"
+      }
+    ]
+  },
+  "seoOpportunities": {
+    "asOf": "2026-09-14",
+    "summary": {
+      "topQuickWins": [
+        "best black pants — Duette collection at pos 12, ZERO Tier 1/2 brands on page 1. Editorial roundup rebuild + digital PR is highest-ROI move.",
+        "cropped ponte pants — The Duane at 7.6, reachable to top-5 with PDP depth and review schema.",
+        "wide leg jersey pants — The Liberty at 13.7, only near-page-one term with no Tier 1/2 competition."
+      ],
+      "topKeywordGaps": [
+        "ponte ankle pants — Quince stacks 5/10 slots; Duette's Hudson should target directly.",
+        "black ponte pants — highest-value ponte modifier; Quince at #1; Duette not ranking.",
+        "concert black pants — Blackstrad at #1; strategic defensive priority for Performers Edit."
+      ],
+      "topSerpCompetitors": [
+        "Quince — page 1 for 8+ tracked queries; Ultra-Stretch Ponte™ named fabric + dual URL structure stacks every modifier.",
+        "Spanx — dominant on 'best black pants for women' via education-center content (not PLP).",
+        "Blackstrad — owns concert black attire SERP."
+      ],
+      "coverageNotes": "14 territories investigated. 5 had no Tier 1/Tier 2 on page 1 (mass retailers only) — classified Low Priority. Search volume and keyword difficulty are null throughout; no free tool returned usable data. Duette positions used verbatim from 2026-09-14 GSC baseline only."
+    },
+    "keywords": [
+      {
+        "keyword": "best black pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": null,
+        "competitorRank": null,
+        "rankingUrl": null,
+        "searchIntent": "Commercial Investigation",
+        "serpType": "editorial roundup",
+        "duetteRank": 12,
+        "duetteRankingUrl": "https://duettenyc.com/collections/best-black-pants",
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "https://duettenyc.com/collections/best-black-pants",
+        "recommendedAction": "Restructure as editorial roundup: H2 per fit (bootcut/Essex, wide-leg/Carmine, ankle/Hudson, cropped/Duane), fabric comparison table, 'how we tested' block. Add internal links from Essex/Hudson/Carmine PDPs + homepage. Pitch editorial roundup outreach (Strategist, TODAY, Cosmo tier)."
+      },
+      {
+        "keyword": "best black pants for women",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "spanx",
+        "competitorRank": 5,
+        "rankingUrl": "https://spanx.com/education-center/best-womens-black-pants-guide",
+        "searchIntent": "Commercial Investigation",
+        "serpType": "editorial roundup + brand content",
+        "duetteRank": null,
+        "duetteRankingUrl": null,
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "https://duettenyc.com/collections/best-black-pants",
+        "recommendedAction": "Mirror Spanx: add long-form buying guide section to Best Black Pants collection, target 'for women' modifier in title/H1/meta."
+      },
+      {
+        "keyword": "cropped ponte pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "ripley-rader",
+        "competitorRank": 1,
+        "rankingUrl": "https://ripleyrader.com/products/the-perfect-pant-cropped",
+        "searchIntent": "Commercial Investigation",
+        "serpType": "product-heavy",
+        "duetteRank": 7.6,
+        "duetteRankingUrl": "https://duettenyc.com/products/the-duane",
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "https://duettenyc.com/products/the-duane",
+        "recommendedAction": "PDP already at 7.6 — reachable to top-5. Deepen PDP: exact-match title/H1, add review schema markup, expand product copy with 'cropped ponte' phrasing. Bonus: pitch Town & Country roundup (#7)."
+      },
+      {
+        "keyword": "wide leg jersey pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": null,
+        "competitorRank": null,
+        "rankingUrl": null,
+        "searchIntent": "Transactional",
+        "serpType": "mixed retail",
+        "duetteRank": 13.7,
+        "duetteRankingUrl": "https://duettenyc.com/products/the-liberty",
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "https://duettenyc.com/products/the-liberty",
+        "recommendedAction": "Only near-page-one term with NO Tier 1/2 competitor. Exact-match title/H1 work should close it. Rename product page title to 'Wide Leg Jersey Pants | The Liberty | DuetteNYC'."
+      },
+      {
+        "keyword": "ponte cardigan",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": null,
+        "competitorRank": null,
+        "rankingUrl": null,
+        "searchIntent": "Commercial Investigation",
+        "serpType": "product",
+        "duetteRank": 6.1,
+        "duetteRankingUrl": null,
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "TBD — identify current ranking PDP via GSC",
+        "recommendedAction": "Already at position 6.1. Confirm which PDP Google associates and reinforce its title/H1 with 'ponte cardigan' exact match."
+      },
+      {
+        "keyword": "ponte ankle pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "quince",
+        "competitorRank": 1,
+        "rankingUrl": "https://www.quince.com/women/ultra-stretch-ponte-ankle-pant",
+        "searchIntent": "Transactional",
+        "serpType": "product-dominant",
+        "duetteRank": null,
+        "duetteRankingUrl": null,
+        "gapType": "Keyword Gap",
+        "recommendedDuettePage": "https://duettenyc.com/products/the-hudson",
+        "recommendedAction": "Quince stacks 5 of top 10 slots. Duette's Hudson (slim ankle ponte) should target this with title 'Black Ponte Ankle Pant | The Hudson | DuetteNYC'."
+      },
+      {
+        "keyword": "concert black pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "blackstrad",
+        "competitorRank": 1,
+        "rankingUrl": "https://www.blackstrad.com/",
+        "searchIntent": "Transactional",
+        "serpType": "brand-dominated",
+        "duetteRank": null,
+        "duetteRankingUrl": null,
+        "gapType": "Strategic Niche / Defend",
+        "recommendedDuettePage": "https://duettenyc.com/collections/the-performers-edit",
+        "recommendedAction": "DIRECT SEO PLAY: Update Performers Edit title to 'Concert Black Pants & Tops for Musicians | DuetteNYC' (planned). Add 'concert black pants' exact-match H1 or subhead. Build internal links from Essex/Hudson/Carmine PDPs. Owner-driven initiative — high priority."
+      },
+      {
+        "keyword": "leatherette pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": null,
+        "competitorRank": null,
+        "rankingUrl": null,
+        "searchIntent": "Transactional",
+        "serpType": "product",
+        "duetteRank": 13.6,
+        "duetteRankingUrl": "https://duettenyc.com/collections/vegan-leather",
+        "gapType": "Quick Win",
+        "recommendedDuettePage": "https://duettenyc.com/collections/vegan-leather",
+        "recommendedAction": "Near-page-one. Add 'leatherette pants' as exact-match in title tag alongside 'vegan leather' for dual capture."
+      },
+      {
+        "keyword": "ponte pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "quince",
+        "competitorRank": 1,
+        "rankingUrl": "https://www.quince.com/women/ultra-stretch-ponte-pant",
+        "searchIntent": "Transactional",
+        "serpType": "product/category",
+        "duetteRank": null,
+        "duetteRankingUrl": null,
+        "gapType": "Keyword Gap",
+        "recommendedDuettePage": "https://duettenyc.com/collections/best-black-pants",
+        "recommendedAction": "High-value head term. Compete with Duette's editorial roundup + fabric depth story. Long-tail via 'black ponte pants' is the more realistic first target."
+      },
+      {
+        "keyword": "black ponte pants",
+        "searchVolume": null,
+        "keywordDifficulty": null,
+        "competitor": "quince",
+        "competitorRank": 1,
+        "rankingUrl": "https://www.quince.com/women/ultra-stretch-ponte-straight-leg-pant",
+        "searchIntent": "Transactional",
+        "serpType": "product",
+        "duetteRank": null,
+        "duetteRankingUrl": null,
+        "gapType": "Keyword Gap",
+        "recommendedDuettePage": "https://duettenyc.com/collections/best-black-pants",
+        "recommendedAction": "Highest-value modifier target. Optimize best-black-pants collection with 'black ponte pants' in title and H2. Expand PDP copy on Essex/Hudson/Carmine to use exact phrase."
+      }
+    ]
+  }
+}
