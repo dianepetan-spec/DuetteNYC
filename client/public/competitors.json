@@ -3,7 +3,7 @@
     "id": "duettenyc",
     "name": "DuetteNYC",
     "tier": "self",
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://duettenyc.com",
     "segment": "Boutique DTC",
     "garmentFocus": "Black ponte bootleg pants & 7-piece capsule wardrobe. Specialty: Essex Boot Leg Ponte Pant. Sustainable Ecovero fabrication.",
@@ -41,22 +41,26 @@
     "hasBestseller": true,
     "heroHeadline": "Your First Choice. Every Morning.",
     "heroCta": null,
-    "promoOffer": "20% off 2 pieces; 30% off 3 pieces; 35% off 4+ pieces. Discount applies automatically at checkout.",
+    "promoOffer": "Build your wardrobe. Save automatically: 20% off 2 pieces; 30% off 3 pieces; 35% off 4+ pieces. Discount applies automatically at checkout.",
     "trustSignals": [
-      "★★★★★ “I'm never taking these pants off.” — Naomi S., Brooklyn, NY",
-      "★★★★★ “I never travel without a black crewneck and a pair of Duette pants.” — Diana A., Chicago, IL",
-      "Real reviews from women in Chicago & New York."
+      "★★★★★ customer reviews",
+      "Real reviews from women in Chicago & New York",
+      "Concert black designed to move from rehearsal to performance",
+      "Effortless stretch",
+      "Polished comfort",
+      "Cashmere-blend cardigan"
     ],
     "seoKeywords": [
-      "black bootcut ponte pants",
-      "the essex",
-      "black ponte pants",
-      "ponte pant",
-      "capsule wardrobe"
+      "concert black pants",
+      "concert black",
+      "Performer's Edit",
+      "black crewneck",
+      "Duette pants",
+      "ponte pants"
     ],
     "conversionScore": 7,
-    "weekChange": "Homepage hero changed to “Your First Choice. Every Morning.”; bundle offer expanded to 35% off 4+ pieces.",
-    "notes": "Hero page shows 'Low stock - 4 items left'. Review base is very thin (3), so week-over-week rating will be volatile. Homepage collection titled 'Best Black Pants for Women | DuetteNYC'. NOTE: SEO title change planned for /collections/the-performers-edit — 'Concert Black Pants & Tops for Musicians | DuetteNYC' — not yet live as of this baseline. Homepage/PDP refreshed 2026-09-21; price and review values retained where the fetch did not expose them.",
+    "weekChange": "Homepage/promo copy reconfirmed; hero PDP fetch was blocked, so product and review fields were carried forward.",
+    "notes": "Hero page shows 'Low stock - 4 items left'. Review base is very thin (3), so week-over-week rating will be volatile. Homepage collection titled 'Best Black Pants for Women | DuetteNYC'. NOTE: SEO title change planned for /collections/the-performers-edit — 'Concert Black Pants & Tops for Musicians | DuetteNYC' — not yet live as of this baseline. Homepage/PDP refreshed 2026-09-21; price and review values retained where the fetch did not expose them. 2026-09-28 hero PDP fetch was blocked by robots; product and review fields retained from the prior snapshot.",
     "monthlyVisits": 1697,
     "authorityScore": null,
     "globalRank": null,
@@ -66,13 +70,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "lysse",
     "name": "Lysse",
     "tier": 1,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.lysse.com",
     "segment": "Premium DTC + Wholesale",
     "garmentFocus": "Leggings, ponte pants, denim leggings, tops, dresses. LYSSÉNTIALS essentials sub-brand. LYSSÉFit™ patented waistband. Linen, ponte, knit denim, vegan leather.",
@@ -135,8 +139,8 @@
       "lyssé"
     ],
     "conversionScore": 6,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "Hero page title/H1 are generic (no 'black' in title) — SEO gap. On-page review count (161) vs JSON-LD (167) disagree — tracking on-page number. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage and PDP fetches were blocked, so prior weekly values were carried forward.",
+    "notes": "Hero page title/H1 are generic (no 'black' in title) — SEO gap. On-page review count (161) vs JSON-LD (167) disagree — tracking on-page number. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 homepage and hero PDP fetches were blocked; prior weekly fields retained.",
     "monthlyVisits": 191193,
     "authorityScore": null,
     "globalRank": 943263,
@@ -146,13 +150,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "spanx",
     "name": "Spanx",
     "tier": 2,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.spanx.com",
     "segment": "Shapewear-Crossover DTC",
     "garmentFocus": "Shapewear, ponte pants, wide leg pants, denim, AirEssentials® line, bras, activewear, swim. SPANXsupersmooth™ fabric technology.",
@@ -216,8 +220,8 @@
       "targeted compression pants"
     ],
     "conversionScore": 8,
-    "weekChange": "Hero price moved to $168 and pants range to $118–$248; homepage shifted to Bootcut/AirEssentials fall messaging.",
-    "notes": "Highest-authority hero page in the set after Quince (2,514 reviews). Legacy /the-perfect-pant-slim-straight URL now 301s to SPANXsupersmooth PerfectFit Ponte Slim Straight Pant. 2026-09-21 PDP extraction showed “Thousands of glowing reviews” but not a numeric count; retained prior numeric review base (2,514) for schema stability.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage fetch was blocked and PDP extraction was incomplete, so prior weekly values were carried forward.",
+    "notes": "Highest-authority hero page in the set after Quince (2,514 reviews). Legacy /the-perfect-pant-slim-straight URL now 301s to SPANXsupersmooth PerfectFit Ponte Slim Straight Pant. 2026-09-21 PDP extraction showed “Thousands of glowing reviews” but not a numeric count; retained prior numeric review base (2,514) for schema stability. 2026-09-28 homepage fetch was blocked and hero PDP extraction did not expose numeric price/review fields; prior weekly values retained.",
     "monthlyVisits": 2468383,
     "authorityScore": 56,
     "globalRank": 22532,
@@ -227,13 +231,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "eileen-fisher",
     "name": "Eileen Fisher",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.eileenfisher.com",
     "segment": "Sustainable Contemporary",
     "garmentFocus": "Full women's wardrobe — pants, tops, dresses, knitwear, jackets. Linen, silk, organic cotton, fair trade certified. Renew resale platform.",
@@ -295,8 +299,8 @@
       "sustainable pants"
     ],
     "conversionScore": 9,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "Anchored on Flex Ponte Straight Pant (75 reviews). The higher-review crepe pant loads in Ink not Black. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage content was incomplete and hero PDP fetch failed, so prior weekly values were carried forward.",
+    "notes": "Anchored on Flex Ponte Straight Pant (75 reviews). The higher-review crepe pant loads in Ink not Black. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 homepage content was incomplete and hero PDP fetch failed; prior weekly fields retained.",
     "monthlyVisits": 1195002,
     "authorityScore": null,
     "globalRank": 31226,
@@ -306,13 +310,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "jcrew",
     "name": "J.Crew",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.jcrew.com",
     "segment": "Accessible Mid-Market",
     "garmentFocus": "Full women's, men's, and kids' apparel. Ponte bootleg pants (Kaya Pant), linen, charmeuse, four-season stretch. Swim, dresses, accessories.",
@@ -358,26 +362,26 @@
     "reviewCount": 74,
     "rating": 4.8,
     "hasBestseller": true,
-    "heroHeadline": "The New Rules of Prep",
-    "heroCta": "SHOP WOMEN / SHOP MEN / SHOP THE DROP",
-    "promoOffer": "Join now for free — free shipping at jcrew.com; exclusive personalized offers; birthday & anniversary rewards; members-only events; early access to limited-edition collabs.",
+    "heroHeadline": "THE BARN™",
+    "heroCta": "SHOP NOW / EXPLORE THE CAMPAIGN",
+    "promoOffer": null,
     "trustSignals": [
-      "Free shipping at jcrew.com",
-      "Exclusive personalized offers",
-      "Birthday & anniversary rewards",
-      "Members-only events",
-      "Early access to limited-edition collabs"
+      "Warmer and even more plush",
+      "Premium cashmere",
+      "Chinos built for life",
+      "Fresh takes on heritage sweaters"
     ],
     "seoKeywords": [
-      "kaya pant",
-      "four season stretch",
-      "womens dress trouser",
-      "womens work pant",
-      "black bootleg pant"
+      "J.Crew",
+      "premium cashmere",
+      "heritage sweaters",
+      "chinos",
+      "J.Crew Icons",
+      "new arrivals"
     ],
     "conversionScore": 8,
-    "weekChange": "Homepage hero shifted to “The New Rules of Prep” and the Eckhaus Latta X J.Crew drop; loyalty benefits are foregrounded.",
-    "notes": "Hero PDP extraction was incomplete 2026-09-21; prior product/review fields retained.",
+    "weekChange": "Homepage hero changed to “THE BARN™”; PDP fetch redirected, so product and review fields were carried forward.",
+    "notes": "Hero PDP extraction was incomplete 2026-09-21; prior product/review fields retained. 2026-09-28 hero PDP fetch redirected; prior hero product and review fields retained.",
     "monthlyVisits": 11704143,
     "authorityScore": 70,
     "globalRank": 4817,
@@ -387,13 +391,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "ann-taylor",
     "name": "Ann Taylor",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.anntaylor.com",
     "segment": "Accessible Mid-Market",
     "garmentFocus": "Women's professional and occasion wear — ponte trousers (Jayne Trouser), dresses, suits, tops, skirts. Haven Well Within organic sub-brand.",
@@ -451,8 +455,8 @@
       "professional women's clothing"
     ],
     "conversionScore": 8,
-    "weekChange": "Homepage promotion shifted to 30% off full-price plus extra 50–60% off sale styles; PDP remains blocked.",
-    "notes": "Ann Taylor's Jayne Trouser PDP is protected by PerimeterX. Homepage-only capture this baseline; may require manual weekly refresh for hero PDP fields. PDP remained unavailable/blocked on 2026-09-21; hero name, price, review count and rating retained as null. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed.",
+    "weekChange": "PDP remains blocked; prior hero fields were carried forward. The 2026-09-28 homepage capture showed stale-dated offer text, so no new promo was logged.",
+    "notes": "Ann Taylor's Jayne Trouser PDP is protected by PerimeterX. Homepage-only capture this baseline; may require manual weekly refresh for hero PDP fields. PDP remained unavailable/blocked on 2026-09-21; hero name, price, review count and rating retained as null. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. 2026-09-28 hero PDP fetch failed; homepage promo text was stale-dated and was not used for the weekly promo field.",
     "monthlyVisits": 5021436,
     "authorityScore": 63,
     "globalRank": 5457,
@@ -462,13 +466,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "theory",
     "name": "Theory",
     "tier": 2,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.theory.com",
     "segment": "Contemporary Luxury",
     "garmentFocus": "Women's and men's contemporary RTW — ponte flare legging, blazers, pants, knitwear. Proprietary fabrics: Motion Ponte, Bilen, Moonsoft Cotton, Washed Twill, Linen.",
@@ -529,8 +533,8 @@
       "womens dress pants"
     ],
     "conversionScore": 8,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "On-page 920 reviews vs JSON-LD 885 disagree — tracking on-page. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage content was incomplete and hero PDP fetch failed, so prior weekly values were carried forward.",
+    "notes": "On-page 920 reviews vs JSON-LD 885 disagree — tracking on-page. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 homepage content was incomplete and hero PDP fetch failed; prior weekly fields retained.",
     "monthlyVisits": 792900,
     "authorityScore": 52,
     "globalRank": 26295,
@@ -540,13 +544,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "commando",
     "name": "Commando",
     "tier": 2,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.wearcommando.com",
     "segment": "Technical Premium",
     "garmentFocus": "Women's second-skin basics — leggings, bodysuits, neoprene flare pants, shapewear, hosiery, intimates. By Fabric nav: Butter™, Faux Leather, Italian Neoprene, Do It All Denim™.",
@@ -589,17 +593,12 @@
     "reviewCount": 40,
     "rating": 4.4,
     "hasBestseller": false,
-    "heroHeadline": "THE FOUNDER'S COLLECTION",
+    "heroHeadline": "Commando® Luxury Garments for Chic Women Everywhere",
     "heroCta": "SHOP NOW",
-    "promoOffer": "Free shipping on US orders $75+, free economy shipping to CA/AU/UK.",
+    "promoOffer": "Free Economy Shipping Available to CA, AU & the UK; Free Shipping On All US Orders $75+",
     "trustSignals": [
-      "40 reviews / 4.4★ on neoprene flare pant",
-      "Commando In The Press page",
-      "Italian fabric provenance",
-      "Founder's Collection (founder credibility)",
-      "Wholesale page (retail distribution signal)",
-      "Essential Accessibility badge",
-      "Our Impact sustainability page"
+      "Free Economy Shipping to CA, AU & the UK",
+      "Free Shipping on All US Orders $75+"
     ],
     "seoKeywords": [
       "neoprene flare legging",
@@ -609,8 +608,8 @@
       "flare legging women"
     ],
     "conversionScore": 7,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "Homepage hero now presents “Commando® Luxury Garments for Chic Women Everywhere” with a Shop Now CTA; PDP fetch was blocked, so hero product and review fields were carried forward.",
+    "notes": "Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 hero PDP fetch was blocked; hero product and review fields retained.",
     "monthlyVisits": 328634,
     "authorityScore": null,
     "globalRank": null,
@@ -620,13 +619,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "vince",
     "name": "Vince",
     "tier": 2,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.vince.com",
     "segment": "Contemporary Luxury",
     "garmentFocus": "Women's and men's luxury RTW — crepe bias pants, silk, leather, cotton. California-cool minimalist aesthetic. European sourcing (Portugal, Italy). Pant Fit Guide feature.",
@@ -672,12 +671,12 @@
     "heroCta": null,
     "promoOffer": null,
     "trustSignals": [
+      "Italian wools",
+      "Buttery leathers and suedes",
+      "Softest cashmeres",
+      "Enveloping outerwear",
       "'Best-selling' in product copy (Colette Pant)",
-      "European sourcing (Portugal, Italy)",
-      "Pant Fit Guide (educational authority)",
-      "15% off popup (email + SMS)",
-      "Personalized account prompt",
-      "Publicly traded (Vince Holding Corp.)"
+      "Pant Fit Guide (educational authority)"
     ],
     "seoKeywords": [
       "colette pant",
@@ -687,8 +686,8 @@
       "silk trouser"
     ],
     "conversionScore": 8,
-    "weekChange": "Homepage hero shifted to “New Fall Arrivals”; no current sitewide promo was exposed.",
-    "notes": "No on-page reviews structurally (Vince does not show review widgets on all PDPs). Homepage/PDP extraction was partial 2026-09-21; prior product and trust fields retained where not exposed. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed.",
+    "weekChange": "No material change confirmed; “New Fall Arrivals” remains the homepage hero, while the PDP fetch was blocked.",
+    "notes": "No on-page reviews structurally (Vince does not show review widgets on all PDPs). Homepage/PDP extraction was partial 2026-09-21; prior product and trust fields retained where not exposed. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. 2026-09-28 hero PDP fetch failed; prior PDP-specific product and review fields retained.",
     "monthlyVisits": 450100,
     "authorityScore": 50,
     "globalRank": 97190,
@@ -698,13 +697,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "helmut-lang",
     "name": "Helmut Lang",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.helmutlang.com",
     "segment": "Contemporary Designer",
     "garmentFocus": "Denim, jackets, trousers, dresses, knitwear. Ponte Bootcut Pants (most direct competitor). Wardrobe Capsule sub-line. Leather accessories. New York minimalist aesthetic.",
@@ -761,8 +760,8 @@
       "minimalist black pant"
     ],
     "conversionScore": 7,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "Hero pant is final sale — no compare-at price available. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage content was incomplete and hero PDP fetch failed, so prior weekly values were carried forward.",
+    "notes": "Hero pant is final sale — no compare-at price available. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 homepage content was incomplete and hero PDP fetch failed; prior weekly fields retained.",
     "monthlyVisits": 180826,
     "authorityScore": 42,
     "globalRank": 198913,
@@ -772,13 +771,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "wardrobe-nyc",
     "name": "WARDROBE.NYC",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://wardrobe.nyc",
     "segment": "Designer Minimalist",
     "garmentFocus": "Curated luxury women's RTW — trench coats, blazers, leggings, RHW Stretch Trouser, bodysuits, lace, denim. Italian stretch fabric. Edited, not broad, assortment.",
@@ -817,14 +816,12 @@
     "hasBestseller": false,
     "heroHeadline": "NEW SEASON",
     "heroCta": "None visible — hero itself is clickable",
-    "promoOffer": "Free shipping domestic orders; international express $250+; Archive Sale items final sale.",
+    "promoOffer": "Free Shipping for all Domestic Orders, and International Express Shipping for orders over $250",
     "trustSignals": [
+      "Free Shipping for all Domestic Orders",
+      "International Express Shipping for orders over $250",
       "RHW Celebrity Collaboration (Rosie Huntington-Whiteley)",
-      "Free shipping domestic",
-      "Pay Over Time / Afterpay for high AOV",
-      "Italian fabric provenance",
-      "Archive Sale (controlled entry price)",
-      ".nyc TLD"
+      "Italian fabric provenance"
     ],
     "seoKeywords": [
       "rhw stretch trouser",
@@ -834,8 +831,8 @@
       "rosie huntington-whiteley"
     ],
     "conversionScore": 6,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "PDP has broken theme strings and no readable price on-page — price recovered from product JSON. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "Homepage shipping policy reconfirmed; hero PDP fetch failed, so product and review fields were carried forward.",
+    "notes": "PDP has broken theme strings and no readable price on-page — price recovered from product JSON. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 hero PDP fetch failed; prior hero product and review fields retained.",
     "monthlyVisits": 9200,
     "authorityScore": null,
     "globalRank": 2173458,
@@ -845,13 +842,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "wolford",
     "name": "Wolford",
     "tier": 3,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.wolford.com",
     "segment": "Luxury Knit",
     "garmentFocus": "Hosiery, tights, bodysuits, legwear, RTW. Grazia Trousers (ponte-adjacent). Mat de Luxe proprietary fabric, merino, cashmere, sustainable collection, vegan leather.",
@@ -911,8 +908,8 @@
       "wolford legwear"
     ],
     "conversionScore": 7,
-    "weekChange": "Homepage shifted to “A celebration of femininity”; selected Outlet promotion now shows 35% off.",
-    "notes": "wolfordshop.com now 301 redirects to us.wolford.com. Traffic data uses wolford.com (parent domain). 2026-09-21 homepage hero and Outlet promotion refreshed; hero PDP fields retained where not exposed. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage and hero PDP fetches failed, so prior weekly values were carried forward.",
+    "notes": "wolfordshop.com now 301 redirects to us.wolford.com. Traffic data uses wolford.com (parent domain). 2026-09-21 homepage hero and Outlet promotion refreshed; hero PDP fields retained where not exposed. Similarweb rank read refreshed 2026-09-21; monthly visits retained when not exposed. 2026-09-28 homepage and hero PDP fetches failed; prior weekly fields retained.",
     "monthlyVisits": 247719,
     "authorityScore": 43,
     "globalRank": 156011,
@@ -922,13 +919,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "ripley-rader",
     "name": "Ripley Rader",
     "tier": 1,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://ripleyrader.com",
     "segment": "Premium DTC",
     "garmentFocus": "Ponte knit 'magic pants' — wide leg, cropped, straight. Hero SKU: The Perfect Pant ($198). All styles American-made in Downtown LA.",
@@ -967,17 +964,21 @@
     "heroProductUrl": "https://ripleyrader.com/products/the-perfect-pant-in-black",
     "heroProductName": "The Perfect Pant (Wide Leg, Black)",
     "heroProductPrice": "$198",
-    "priceRange": "$198 – $220",
+    "priceRange": "$96 – $468",
     "reviewCount": 0,
     "rating": null,
     "hasBestseller": true,
     "heroHeadline": "FALL FAVORITES",
     "heroCta": "SHOP THE FAVORITES",
-    "promoOffer": "Enjoy free shipping on U.S. orders over $140.",
+    "promoOffer": "Free shipping on U.S. orders over $140",
     "trustSignals": [
-      "FREE U.S. SHIPPING OVER $140",
-      "30 DAY RETURNS",
-      "Designed with you in mind and proudly made in America."
+      "Made in America",
+      "Consciously crafted",
+      "Designed with you in mind",
+      "Free shipping on U.S. orders over $140",
+      "Real Women are Saying",
+      "Independent designer",
+      "Downtown Los Angeles HQ"
     ],
     "seoKeywords": [
       "the perfect pant",
@@ -987,8 +988,8 @@
       "ripley rader"
     ],
     "conversionScore": 7,
-    "weekChange": "Homepage hero shifted to “FALL FAVORITES” / “NEW ARRIVALS”; free-shipping threshold remains $140.",
-    "notes": "Uses curated testimonials, not third-party review widget — reviewCount will always be 0 unless they add Yotpo/Judge.me. Homepage extraction flagged featured content as sold out on 2026-09-21; hero product fields retained from prior read.",
+    "weekChange": "Hero PDP extraction partially succeeded and now exposes a $96–$468 price range; hero product fields otherwise carried forward.",
+    "notes": "Uses curated testimonials, not third-party review widget — reviewCount will always be 0 unless they add Yotpo/Judge.me. Homepage extraction flagged featured content as sold out on 2026-09-21; hero product fields retained from prior read. 2026-09-28 hero PDP content was partial and did not expose hero product price or reviews; prior product fields retained.",
     "monthlyVisits": 33148,
     "authorityScore": null,
     "globalRank": null,
@@ -998,13 +999,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "ayr",
     "name": "AYR",
     "tier": 1,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://ayr.com",
     "segment": "Premium DTC",
     "garmentFocus": "Women's pants and bottoms (scope). Ponte, twill, stretch pants — The Brava, The Hype ponte lines. Best-in-class fit engineering. Bottom-of-wardrobe essentials.",
@@ -1053,8 +1054,8 @@
       "premium pants"
     ],
     "conversionScore": 7,
-    "weekChange": "Homepage headline refreshed to “New American Classics”; seasonal modules foreground travel and new arrivals.",
-    "notes": "NEW to dashboard this week. Scoped to women's pants/bottoms only. On-page 156 vs JSON-LD 119 — tracking on-page. The Brava chosen over The Hype (11 reviews). Homepage extraction was partial 2026-09-21; prior product and promo fields retained where not exposed.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage and hero PDP fetches were blocked, so prior weekly values were carried forward.",
+    "notes": "NEW to dashboard this week. Scoped to women's pants/bottoms only. On-page 156 vs JSON-LD 119 — tracking on-page. The Brava chosen over The Hype (11 reviews). Homepage extraction was partial 2026-09-21; prior product and promo fields retained where not exposed. 2026-09-28 homepage and hero PDP fetches were blocked; prior weekly fields retained.",
     "monthlyVisits": 268882,
     "authorityScore": null,
     "globalRank": null,
@@ -1064,13 +1065,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "blackstrad",
     "name": "Blackstrad",
     "tier": 1,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.blackstrad.com",
     "segment": "Niche DTC (concert attire)",
     "garmentFocus": "Concert black attire for musicians — pants, tops, dresses, layering pieces. Curated third-party brands + Blackstrad Brand Pro Collection.",
@@ -1120,8 +1121,8 @@
       "black concert dress"
     ],
     "conversionScore": 5,
-    "weekChange": "No material change confirmed; 2026-09-21 page extraction was incomplete, so prior weekly values were carried forward.",
-    "notes": "NEW to dashboard. Hero pant (The Scala) currently out of stock — price is null. Traffic tools report no measurable data. Direct competitor for DuetteNYC's Performers Edit positioning. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained.",
+    "weekChange": "No material change confirmed; 2026-09-28 homepage and hero PDP fetches were blocked, so prior weekly values were carried forward.",
+    "notes": "NEW to dashboard. Hero pant (The Scala) currently out of stock — price is null. Traffic tools report no measurable data. Direct competitor for DuetteNYC's Performers Edit positioning. Live page extraction was incomplete on 2026-09-21; prior weekly fields retained. 2026-09-28 homepage and hero PDP fetches were blocked; prior weekly fields retained.",
     "monthlyVisits": null,
     "authorityScore": null,
     "globalRank": null,
@@ -1131,13 +1132,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   },
   {
     "id": "quince",
     "name": "Quince",
     "tier": 1,
-    "weekOf": "2026-09-21",
+    "weekOf": "2026-09-28",
     "url": "https://www.quince.com",
     "segment": "Value Premium DTC (scale)",
     "garmentFocus": "Women's pants and bottoms (scope). Ultra-Stretch Ponte line — leggings, straight, wide leg, flare, ankle. Direct-to-manufacturer pricing on premium materials.",
@@ -1167,32 +1168,34 @@
     "hasSustainability": 1,
     "hasPetiteTall": 0,
     "heroProductUrl": "https://www.quince.com/women/ultra-stretch-ponte-straight-leg-pant",
-    "heroProductName": "Ultra-Stretch Ponte Straight Leg Pant",
+    "heroProductName": "Ultra-Stretch Ponte Straight Leg Pants - Regular 30\" inseam",
     "heroProductPrice": "$39.90",
     "priceRange": "$49.90 – $89.90",
     "reviewCount": 14691,
     "rating": 4.7,
     "hasBestseller": true,
-    "heroHeadline": "A new season of softness",
-    "heroCta": "SHOP FALL CASHMERE",
-    "promoOffer": "Bundle and save",
+    "heroHeadline": "Cashmere is calling",
+    "heroCta": "SHOP NOW",
+    "promoOffer": null,
     "trustSignals": [
-      "Honest reviews",
-      "Sustainable luxury for all",
-      "How we keep prices low",
-      "Free shipping & easy returns for 365 days.",
-      "4-way stretch; wrinkle-resistant; resists wrinkling, pilling, and fading"
+      "4-way stretch",
+      "Wrinkle-resistant",
+      "Free shipping",
+      "Free returns for 365 days",
+      "Double knit ponte fabric",
+      "Resists pilling and fading"
     ],
     "seoKeywords": [
-      "ultra-stretch ponte pant",
-      "ponte straight leg",
-      "black ponte pants womens",
-      "quince ponte",
-      "affordable ponte pants"
+      "Ultra-Stretch Ponte Straight Leg Pants",
+      "straight leg pants",
+      "4-way stretch pants",
+      "double knit ponte pants",
+      "wrinkle-resistant pants",
+      "Regular 30\" inseam"
     ],
     "conversionScore": 9,
-    "weekChange": "Hero sale price is now $39.90 (from $59.90); review count increased to 14,691; homepage shifted to fall softness/cashmere.",
-    "notes": "NEW to dashboard. Scoped to women's pants/bottoms. Highest review count in the set (14,512). Ranks page 1 for 8+ tracked keyword territories. 2026-09-21 PDP shows $39.90 and 14,691 reviews; rating retained at 4.7 because the extraction did not expose a new numeric rating.",
+    "weekChange": "Homepage hero changed to “Cashmere is calling”; PDP still shows $39.90, while numeric review/rating fields were not exposed and were carried forward.",
+    "notes": "NEW to dashboard. Scoped to women's pants/bottoms. Highest review count in the set (14,512). Ranks page 1 for 8+ tracked keyword territories. 2026-09-21 PDP shows $39.90 and 14,691 reviews; rating retained at 4.7 because the extraction did not expose a new numeric rating. 2026-09-28 PDP confirmed the $39.90 price and 30-inch regular inseam; review count and rating were not exposed, so prior numeric values were retained.",
     "monthlyVisits": 27394215,
     "authorityScore": 64,
     "globalRank": 1819,
@@ -1202,6 +1205,6 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-28"
   }
 ]
