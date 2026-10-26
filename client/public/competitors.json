@@ -1102,16 +1102,16 @@
     "heroProductPrice": "$118",
     "priceRange": null,
     "reviewCount": 38,
-    "rating": 4.92,
+    "rating": 4.9,
     "hasBestseller": false,
     "heroHeadline": "One dress. A wardrobe of possibilities.",
     "heroCta": "Explore the capsule",
     "promoOffer": "Join texts for 15% off; the homepage also shows $20 off a first order. U.S. shipping is capped at $9.90; free U.S. shipping and returns on orders over $150.",
     "trustSignals": [
-      "The U.S. formal-pants collection resolves The Modern Tux Pant at $118 USD, rated 4.92/5 from 38 reviews.",
+      "The U.S. formal-pants collection lists The Modern Tux Pant at $118 USD, 4.92/5 from 38 reviews; its direct PDP shows 4.9/5, apparently rounded.",
       "Verified-buyer review entries are shown.",
-      "Free returns; ships in 1–2 days; U.S. shipping capped at $9.90 and free shipping/returns over $150.",
-      "Direct PDP localizes price to KYD and marks all displayed sizes/lengths unavailable."
+      "All displayed sizes are sold out or unavailable; the PDP displays “Sale Notify Me.”",
+      "Free returns; ships in 1–2 days; U.S. shipping capped at $9.90 and free shipping/returns over $150."
     ],
     "seoKeywords": [
       "Modern Tux Pant",
@@ -1122,8 +1122,8 @@
       "music performers"
     ],
     "conversionScore": 5,
-    "weekChange": "The U.S. collection now resolves The Modern Tux Pant at $118, with 38 reviews at 4.92/5, up from 34 reviews at 4.9/5. The direct PDP still localizes price to KYD and lists all sizes unavailable; the collection does not show stock status.",
-    "notes": "The official U.S. formal-pants collection explicitly shows $118 USD, 38 reviews, and 4.92/5, resolving the prior price conflict. The direct PDP displays $101 KYD and marks all sizes/lengths sold out; collection stock status is not stated. The homepage resolves to a Peru-localized storefront (PEN) but currently shows text-signup and first-order offers.",
+    "weekChange": "The U.S. collection resolves The Modern Tux Pant at $118, with 38 reviews and a 4.92/5 collection rating, up from 34 reviews at 4.9/5. The direct U.S. PDP confirms $118 USD and 38 reviews at 4.9/5 (rounded), and marks every size unavailable with “Sale Notify Me.”",
+    "notes": "The official U.S. formal-pants collection explicitly shows $118 USD, 38 reviews, and 4.92/5, resolving the prior price conflict. The direct U.S. PDP confirms $118 USD and 38 reviews at 4.9/5, apparently rounded from the collection value; all sizes are unavailable and “Sale Notify Me” is shown. The homepage resolves to a Peru-localized storefront (PEN) but currently shows text-signup and first-order offers.",
     "monthlyVisits": null,
     "authorityScore": 891912,
     "globalRank": 891912,
