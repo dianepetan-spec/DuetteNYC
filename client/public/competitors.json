@@ -3,7 +3,7 @@
     "id": "duettenyc",
     "name": "DuetteNYC",
     "tier": "self",
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://duettenyc.com",
     "segment": "Boutique DTC",
     "garmentFocus": "Black ponte bootleg pants & 7-piece capsule wardrobe. Specialty: Essex Boot Leg Ponte Pant. Sustainable Ecovero fabrication.",
@@ -36,29 +36,30 @@
     "heroProductName": "Black Bootcut Ponte Pant | The Essex",
     "heroProductPrice": "$128.00 USD",
     "priceRange": "$108–$128",
-    "reviewCount": 3,
+    "reviewCount": 2,
     "rating": 5.0,
     "hasBestseller": true,
-    "heroHeadline": "Concert Black. Made to Perform.",
-    "heroCta": "Shop Concert Black",
-    "promoOffer": "Free standard U.S. shipping at $100+; 15% off a first order with email signup; musicians and professionals save 15% on 1–2 pieces with MUSICIAN15 or 20% on 3+ pieces with MUSICIAN20. Musician offers do not combine.",
+    "heroHeadline": "Concert Black Clothing. Made to Perform.",
+    "heroCta": "Musicians & professionals: 25% off →",
+    "promoOffer": "25% off eligible full-price clothing: MUSICIAN25 for musicians and students; DUETTE25 for professionals. Subscribers can use WELCOME20 for 20% off one eligible clothing order. No minimum purchase; exclusions apply; offers do not combine. Free standard shipping on orders $75+ after discounts. No expiry shown.",
     "trustSignals": [
-      "The Essex is $128.00 USD, with 3 reviews at 5.0/5 and a Bestseller badge.",
-      "Low stock: 4 items left; the page also says backordered, shipping soon.",
-      "Free standard U.S. shipping on orders $100+; eligible continental U.S. returns within 30 days with a $7.50 label fee.",
-      "65% LENZING ECOVERO viscose, 31% nylon, 4% elastane; machine washable with four-way stretch."
+      "The Essex is $128.00 USD with 2 reviews at 5.0/5 and a Bestseller badge.",
+      "Black is shown as sold out; size XXL is explicitly marked sold out.",
+      "Free shipping over $75; eligible returns within 30 days with a $7.50 label fee.",
+      "Premium four-way-stretch ponte; machine washable.",
+      "Women-owned; NYC since 2019; 25+ years of pant-making expertise."
     ],
     "seoKeywords": [
-      "concert black pants",
       "concert black clothing",
-      "women's black pants",
-      "Black Bootcut Ponte Pant",
-      "The Essex",
-      "four-way-stretch ponte"
+      "black pants",
+      "women musicians",
+      "black bootcut ponte pants",
+      "classic bootcut pant",
+      "The Essex"
     ],
     "conversionScore": 7,
-    "weekChange": "The Essex remains $128 with 3 reviews at 5.0/5 on the live PDP. A current search-index result still shows 4 reviews, so the direct PDP is used and the count conflict is retained. Homepage CTA is now “Shop Concert Black.”",
-    "notes": "Current official homepage and direct PDP checked. The PDP shows 3 reviews; a current search-index result shows 4. Homepage offers first-order and musician discounts plus free shipping over $100; size-level stock labels conflict between sold out, low stock, and backorder. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The Essex remains $128 and 5.0/5, but its live review count fell from 3 to 2. The homepage now promotes 25% musician/student and professional offers, WELCOME20 for subscribers, and a $75 free-shipping threshold instead of $100.",
+    "notes": "Current homepage and direct PDP checked. The product page shows 2 reviews, the black color and XXL sold out, and the new MUSICIAN25, DUETTE25, and WELCOME20 offers. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 1697,
     "authorityScore": 5446491,
     "globalRank": 5446491,
@@ -68,13 +69,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "lysse",
     "name": "Lysse",
     "tier": 1,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.lysse.com",
     "segment": "Premium DTC + Wholesale",
     "garmentFocus": "Leggings, ponte pants, denim leggings, tops, dresses. LYSSÉNTIALS essentials sub-brand. LYSSÉFit™ patented waistband. Linen, ponte, knit denim, vegan leather.",
@@ -119,26 +120,27 @@
     "reviewCount": 171,
     "rating": 4.5,
     "hasBestseller": false,
-    "heroHeadline": "THE HOUSE OF DREAMS — Celebrate the magic of the season in cozy sweaters and stunning sets.",
+    "heroHeadline": "THE HOUSE OF DREAMS",
     "heroCta": "SHOP HOLIDAY 2026",
-    "promoOffer": "Gold and Platinum Rewards members get early access to the Black Friday Sale starting November 20; Elysse PDP offers free shipping on orders over $150. No product-specific discount or expiry is shown.",
+    "promoOffer": "Gold and Platinum Rewards members receive early access to the Black Friday Sale starting November 20. Elysse PDP offers free shipping on orders over $150; homepage free-shipping messages conflict. No expiry is shown for the early access.",
     "trustSignals": [
-      "Elysse: 171 reviews at 4.5/5; the separate reviews tab says 167.",
+      "Elysse: 171 reviews at 4.5/5; the separate Reviews tab says 167.",
       "The PDP says in stock and Add to Cart, but also shows Sold Out/Notify Me and unavailable variants.",
-      "Free shipping on orders over $150; the PDP offers 4-way-stretch ponte and a patented smoothing waistband.",
-      "Rewards members receive points and early access to the Black Friday sale starting November 20."
+      "Free shipping on orders over $150; four-way-stretch ponte with a patented smoothing waistband.",
+      "Rewards members receive points and early access to the Black Friday sale starting November 20.",
+      "Swap Protect offers shipping-issue claim support and 24/7 claims assistance."
     ],
     "seoKeywords": [
       "Elysse Wide Leg Pant",
-      "33-inch inseam",
+      "33-inch inseam pants",
       "Ponte pants",
       "4-way stretch",
       "concealed patented waistband",
       "Holiday 2026"
     ],
     "conversionScore": 7,
-    "weekChange": "The homepage changed from “Heritage” to “The House of Dreams” and now promotes rewards-member early access to Black Friday beginning November 20. Elysse remains $98 with 171 reviews at 4.5/5; its separate 167-review tab and stock messages conflict.",
-    "notes": "Current official homepage and Elysse PDP checked. The 20%-in-cart Nadia offer from last week is no longer shown; rewards-member Black Friday access starts November 20. Elysse reviews conflict between 171 and 167, and stock labels conflict. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The homepage now leads with “THE HOUSE OF DREAMS” and rewards-member early access to Black Friday beginning November 20. Elysse remains $98 with 171 reviews at 4.5/5; its separate 167-review tab and stock messages conflict.",
+    "notes": "Current official homepage and Elysse PDP checked. The prior Nadia 20%-in-cart promotion is no longer shown. Review totals and stock labels conflict. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 191193,
     "authorityScore": 2806722,
     "globalRank": 2806722,
@@ -148,13 +150,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "spanx",
     "name": "Spanx",
     "tier": 2,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.spanx.com",
     "segment": "Shapewear-Crossover DTC",
     "garmentFocus": "Shapewear, ponte pants, wide leg pants, denim, AirEssentials® line, bras, activewear, swim. SPANXsupersmooth™ fabric technology.",
@@ -192,33 +194,34 @@
     ],
     "hasSustainability": 1,
     "hasPetiteTall": 1,
-    "heroProductUrl": "https://spanx.com/products/spanxsupersmooth-perfectfit-ponte-slim-straight-pant",
-    "heroProductName": "SPANXsupersmooth® PerfectFit Ponte Slim Straight Pant",
-    "heroProductPrice": "$158.00 USD",
+    "heroProductUrl": "https://spanx.com/products/spanx-airessentials-twill-wide-leg-pant-with-velvet-trim",
+    "heroProductName": "SPANX AirEssentials® Twill Wide Leg Pant with Velvet Trim",
+    "heroProductPrice": "$140.00 USD",
     "priceRange": "$118 – $248",
-    "reviewCount": 3013,
-    "rating": 4.2,
-    "hasBestseller": true,
-    "heroHeadline": "5 for $50 Undies",
-    "heroCta": "STOCK UP",
-    "promoOffer": "5 for $50 Undies; free U.S. shipping on orders $75+; Shop the Undie Upgrade Sale; and 15% off a first full-priced purchase with SMS or email signup. Terms apply.",
+    "reviewCount": 0,
+    "rating": null,
+    "hasBestseller": false,
+    "heroHeadline": "Big Night? Soft Pants.",
+    "heroCta": "SHOP TWILL",
+    "promoOffer": "Free shipping on orders $75+ (terms); 15% off a first full-priced purchase when opting into SMS or email (terms). No expiry shown.",
     "trustSignals": [
-      "The tracked PerfectFit Ponte is a Best Seller with 3,013 reviews at 4.2/5.",
+      "New SPANX AirEssentials Twill Wide Leg Pant with Velvet Trim: $140; no reviews yet.",
       "Free shipping on orders $75+; terms apply.",
-      "Homepage leads with 5 for $50 Undies and the Undie Upgrade Sale.",
-      "Premium ponte has four-way stretch and built-in SPANX CoreSure smoothing/compression technology."
+      "A 15% first-full-price-purchase offer is available with SMS or email signup.",
+      "Lightweight spacer fabric with a twill-textured exterior, velvet trim, and a zip/button closure.",
+      "The prior PerfectFit Ponte PDP remains a Best Seller with 3,014 reviews at 4.2/5."
     ],
     "seoKeywords": [
-      "Ponte Slim Straight Pant",
-      "SPANXsupersmooth PerfectFit",
-      "high-rise slim straight pant",
-      "premium ponte fabric",
-      "SPANX CoreSure",
-      "SPANX shapewear"
+      "SPANX AirEssentials Twill Wide Leg Pant",
+      "women's wide-leg pant",
+      "twill-textured exterior",
+      "velvet trim",
+      "AirEssentials loungewear",
+      "light-as-air stretch pant"
     ],
-    "conversionScore": 8,
-    "weekChange": "The homepage lead changed from “New Season, New Colors” to “5 for $50 Undies,” with the Undie Upgrade Sale now prominent. The tracked Best Seller Ponte pant remains $158 with 3,013 reviews at 4.2/5.",
-    "notes": "Current official homepage and tracked Ponte PDP checked. The homepage shows 5 for $50 Undies, an Undie Upgrade Sale, $75+ free shipping, and a 15% signup offer; the tracked pant price and review data are unchanged. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "conversionScore": 7,
+    "weekChange": "The homepage changed to “Big Night? Soft Pants.” and “SHOP TWILL.” Its new featured $140 Twill Wide Leg Pant has no reviews yet; the prior PerfectFit Ponte remains a Best Seller with 3,014 reviews at 4.2/5. Conversion score falls from 8 to 7 because the current hero PDP has no social proof.",
+    "notes": "Current U.S. homepage and new Twill PDP checked. The featured item is marked New and has an explicit empty review widget; prior pants price range retained. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 3200000,
     "authorityScore": 11120,
     "globalRank": 11120,
@@ -228,13 +231,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "eileen-fisher",
     "name": "Eileen Fisher",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.eileenfisher.com",
     "segment": "Sustainable Contemporary",
     "garmentFocus": "Full women's wardrobe — pants, tops, dresses, knitwear, jackets. Linen, silk, organic cotton, fair trade certified. Renew resale platform.",
@@ -278,14 +281,14 @@
     "reviewCount": 607,
     "rating": 4.5,
     "hasBestseller": true,
-    "heroHeadline": "Celebrating Connects Us",
-    "heroCta": "Shop Holiday",
-    "promoOffer": "15% off when signing up; free U.S. shipping and returns; extended holiday returns are shown. The tracked product page currently says Sold Out.",
+    "heroHeadline": "Silk & Satin. Better Together.",
+    "heroCta": "Shop New Arrivals",
+    "promoOffer": "15% off with email signup; free shipping and returns on all U.S. orders; extended holiday returns are shown. No expiry stated.",
     "trustSignals": [
       "Washable Flex Ponte Pant is described as a best-selling slim pant.",
       "607 reviews at 4.5/5 on the current localized product page.",
-      "The page says the style is sold out/out of stock.",
-      "Free shipping and returns on U.S. orders; 15% signup offer.",
+      "The page says the tracked style is sold out; selected size 2X is sold out.",
+      "Free shipping and returns on U.S. orders; 15% signup offer and extended holiday returns.",
       "Stretch ponte made with TENCEL Lyocell; machine washable."
     ],
     "seoKeywords": [
@@ -294,11 +297,11 @@
       "washable ponte pants",
       "TENCEL Lyocell",
       "women's ponte pants",
-      "Celebrating Connects Us"
+      "Silk & Satin"
     ],
     "conversionScore": 9,
-    "weekChange": "The homepage now promotes Washable Flex Ponte and the tracked style changed from Flex Ponte to Washable Flex Ponte. The new style has 607 reviews at 4.5/5 versus 45 at 3.8/5 for the prior style, but is shown out of stock. An official U.S. search result listed $134.25 and 606 reviews; the current direct fetch localized to Peru at S/.495 and showed 607 reviews.",
-    "notes": "The official homepage promotes Washable Flex Ponte. The current direct product fetch rendered the Peru locale (S/.495), 607 reviews at 4.5/5, and sold-out status; the official search result showed a U.S. price of $134.25 and 606 reviews. The dashboard uses the indexed U.S. price and direct-page review count; the cross-locale discrepancy is explicit. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The homepage now leads with “Silk & Satin. Better Together.” and “Shop New Arrivals.” Washable Flex Ponte remains at 607 reviews and 4.5/5; the direct PDP is Brazil-localized at R$840, so the last verified U.S. price remains $134.25.",
+    "notes": "Current homepage and PDP checked. PDP displays Brazilian reais and Brazil-specific shopping information; prior verified U.S. price and pants range are retained. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 1200000,
     "authorityScore": 37729,
     "globalRank": 37729,
@@ -308,13 +311,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "jcrew",
     "name": "J.Crew",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.jcrew.com",
     "segment": "Accessible Mid-Market",
     "garmentFocus": "Full women's, men's, and kids' apparel. Ponte bootleg pants (Kaya Pant), linen, charmeuse, four-season stretch. Swim, dresses, accessories.",
@@ -360,14 +363,15 @@
     "reviewCount": 153,
     "rating": 4.8,
     "hasBestseller": false,
-    "heroHeadline": "Gifts under $100",
-    "heroCta": "Shop all gifts; Shop women; Shop men",
-    "promoOffer": "Donate a gently worn coat at a J.Crew store and receive $25 off a next purchase of $125+; J.Crew also says it is giving $50,000 to One Warm Coat.",
+    "heroHeadline": "The more is more SALE",
+    "heroCta": "SHOP WOMEN; SHOP MEN; SHOP GIRLS; SHOP BOYS",
+    "promoOffer": "20% off $200+, 25% off $300+, or 30% off $500+ with code SHOPMORE; no expiry shown.",
     "trustSignals": [
-      "Kaya pant is Top Rated with 153 reviews at 4.8/5.",
-      "Four-season stretch fabric; contains at least 30% recycled materials.",
-      "Current product page is localized to Brazil and displays BRL, so the prior verified U.S. price is retained.",
-      "Homepage highlights the coat-donation $25-off-$125 offer and One Warm Coat donation."
+      "Kaya pant is Top Rated with 153 reviews at 4.8/5; no Best Seller badge is shown.",
+      "Four-season stretch fabric is described as retaining its shape.",
+      "Contains at least 30% recycled materials.",
+      "Current product captures are localized outside the U.S. and conflict between BRL and INR; prior verified U.S. price is retained.",
+      "Homepage advertises tiered discounts of 20%, 25%, or 30% with code SHOPMORE."
     ],
     "seoKeywords": [
       "Kaya pant in four-season stretch",
@@ -378,8 +382,8 @@
       "women's pants"
     ],
     "conversionScore": 8,
-    "weekChange": "Kaya reviews increased from 152 to 153; rating remains 4.8/5. The homepage now leads with “Gifts under $100” and “Quality coats for everyone,” plus a coat-donation offer. The current PDP is Brazil-localized, so $148 U.S. price is retained.",
-    "notes": "Current official homepage and Kaya PDP checked. The PDP displays 153 reviews at 4.8/5 and BRL pricing; the prior U.S. price of $148 and pants range are retained. Homepage promotion is a $25 discount on a future $125+ purchase after donating a coat. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "Kaya reviews increased from 152 to 153; rating remains 4.8/5. The homepage now promotes a tiered sale of 20% off $200+, 25% off $300+, or 30% off $500+ with SHOPMORE. The PDP captures conflict between BRL and INR, so the prior U.S. price remains $148.",
+    "notes": "Current homepage and Kaya PDP checked. PDP captures display non-U.S. currencies (BRL and INR) and local duty/shipping language; prior verified U.S. price and pants range are retained. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 17200000,
     "authorityScore": 2183,
     "globalRank": 2183,
@@ -389,13 +393,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "ann-taylor",
     "name": "Ann Taylor",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.anntaylor.com",
     "segment": "Accessible Mid-Market",
     "garmentFocus": "Women's professional and occasion wear — ponte trousers (Jayne Trouser), dresses, suits, tops, skirts. Haven Well Within organic sub-brand.",
@@ -431,34 +435,34 @@
     ],
     "hasSustainability": 1,
     "hasPetiteTall": 1,
-    "heroProductUrl": "https://www.anntaylor.com/l/black-tailored-pants-0zaz04b",
-    "heroProductName": "The Straight Pant in Seasonless Stretch",
-    "heroProductPrice": "$119.00",
+    "heroProductUrl": "https://www.anntaylor.com/clothing/pants/cata000014/side-zip-wide-leg-pant-fluid-crepe/849026.html?dwvar_849026_color=020895",
+    "heroProductName": "The Side Zip Wide-Leg Pant in Fluid Crepe",
+    "heroProductPrice": "$139.00 USD",
     "priceRange": "$29 – $249",
-    "reviewCount": null,
-    "rating": null,
-    "hasBestseller": false,
-    "heroHeadline": "Style Your Season",
-    "heroCta": "Shop Sweaters; Shop Tops; Shop Pants; Shop Suits; Shop Dresses; Shop Outerwear",
-    "promoOffer": "The category shows Extra 60% Off Sale and 40% off tops/sweaters, 30% off suiting, jackets and shoes, each with a November 10, 11:59 PM ET expiry but no year; free shipping at $150+ and 10% off a full-price order for text signup. Applicability of the sale to the tracked first listing is not shown.",
+    "reviewCount": 4,
+    "rating": 3.3,
+    "hasBestseller": true,
+    "heroHeadline": "TODAY ONLY — OUTERWEAR STARTING AT $125*",
+    "heroCta": "Shop Now; Shop Petites",
+    "promoOffer": "30% off full-price purchases through November 17, 2026; extra 50% off sale styles through November 17; outerwear starting at $125 through November 16; free shipping on orders of $150+; 10% off a full-price purchase with text signup. Exclusions apply.",
     "trustSignals": [
-      "The first black-tailored listing is The Straight Pant in Seasonless Stretch at $119; no sale price or bestseller badge is shown.",
-      "No review count or rating is visible for the first listing.",
-      "Free shipping is shown on the product card; general offer specifies orders of $150+.",
-      "StyleRewards points and rewards are promoted.",
-      "Promotion panel has a November 10 expiry without a year and also exposes 2023 terms."
+      "The Side Zip Wide-Leg Pant in Fluid Crepe is the first black-tailored listing at $139 on the category page and is marked Best Seller there.",
+      "Direct PDP shows 4 reviews at 3.3/5.",
+      "The PDP localizes to Brazil at R$1,290 and shows a 30% full-price offer, creating a currency discrepancy with the U.S. category card.",
+      "Free U.S. shipping with orders of $150+; StyleRewards points and birthday rewards.",
+      "Offer panels also expose stale 2023 fine print alongside current November 2026 offers."
     ],
     "seoKeywords": [
       "black tailored pants",
-      "The Straight Pant in Seasonless Stretch",
-      "straight-leg work pants",
-      "seasonless stretch pant",
-      "black trousers",
-      "women's clothing"
+      "The Side Zip Wide-Leg Pant in Fluid Crepe",
+      "black tailored trousers",
+      "wide-leg work pants",
+      "fluid crepe pants",
+      "women's pants"
     ],
-    "conversionScore": 7,
-    "weekChange": "The first black-tailored listing remains The Straight Pant, but its displayed price is now $119 with no sale price or Best Seller badge (previously $83.30 and labeled Best Seller). Homepage headline is “Style Your Season”; current sale terms include an undated November 10 expiry and conflicting 2023 terms. Conversion score falls from 8 to 7 due to weaker price/badge clarity.",
-    "notes": "Homepage fetch shows an access-denied message and COP localization; the black tailored category remains accessible and is used for the first listing. It shows The Straight Pant at $119 with no review or bestseller signal. Promotion dates conflict: current offers expire November 10 with no year, while older 2023 terms remain visible; no sale eligibility is confirmed for the first listing. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "conversionScore": 6,
+    "weekChange": "The first black-tailored listing changed to The Side Zip Wide-Leg Pant in Fluid Crepe. The U.S. category card lists $139 and a Best Seller badge, while the direct PDP localizes to R$1,290 and shows 4 reviews at 3.3/5. The homepage has a one-day outerwear offer; conversion score falls from 7 to 6 because of low ratings and currency/offer clarity.",
+    "notes": "Current official homepage, category, and direct PDP checked. The category card lists $139 USD and a Best Seller badge; the direct PDP is Brazil-localized and shows R$1,290, 4 reviews at 3.3/5, and 30% off full-price. Older 2023 offer text also appears. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 5021436,
     "authorityScore": 5753,
     "globalRank": 5753,
@@ -468,13 +472,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "theory",
     "name": "Theory",
     "tier": 2,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.theory.com",
     "segment": "Contemporary Luxury",
     "garmentFocus": "Women's and men's contemporary RTW — ponte flare legging, blazers, pants, knitwear. Proprietary fabrics: Motion Ponte, Bilen, Moonsoft Cotton, Washed Twill, Linen.",
@@ -535,8 +539,8 @@
       "women's pants"
     ],
     "conversionScore": 8,
-    "weekChange": "The homepage now leads with “Season’s Greetings From NYC” and a coats/Regal Wool offer. The Fall Limited-Time Offer is extended to November 10, 2026 in select countries; Treeca remains localized and Final Sale, so prior U.S. $275 and 920/4.7 review data are retained.",
-    "notes": "Current official homepage and Treeca PDP checked. The product page shows Brazilian-real pricing, Final Sale, and no review widget; the fit is described as bestselling without a badge. Prior U.S. price/reviews are retained; offer eligibility for U.S. shoppers is unverified. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "Fetch blocked 2026-11-16 for both the homepage and Treeca PDP; prior product, price, offer, and review fields were retained. Similarweb also returned 403, so prior precise visits and ranks remain.",
+    "notes": "Fetch blocked 2026-11-16",
     "monthlyVisits": 1900000,
     "authorityScore": 27038,
     "globalRank": 27038,
@@ -546,13 +550,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "commando",
     "name": "Commando",
     "tier": 2,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.wearcommando.com",
     "segment": "Technical Premium",
     "garmentFocus": "Women's second-skin basics — leggings, bodysuits, neoprene flare pants, shapewear, hosiery, intimates. By Fabric nav: Butter™, Faux Leather, Italian Neoprene, Do It All Denim™.",
@@ -597,12 +601,12 @@
     "hasBestseller": false,
     "heroHeadline": "The Strategist’s Pick",
     "heroCta": "Shop Now",
-    "promoOffer": "Free U.S. shipping on orders $75+; free economy shipping to Canada, Australia, and the United Kingdom.",
+    "promoOffer": "Free U.S. shipping on orders $75+; free economy shipping to Canada, Australia, and the United Kingdom. No expiry shown.",
     "trustSignals": [
       "Neoprene Flared Legging remains $188 with 43 reviews at 4.4/5.",
-      "Italian neoprene is fit-tested by real women and is machine washable.",
+      "Italian neoprene is fit-tested by real women; machine washable with high stretch and recovery.",
       "Free U.S. shipping on orders $75+; free economy shipping to Canada, Australia, and the U.K.",
-      "Unworn or unopened items may be returned within 30 days of ship date."
+      "Unworn or unopened items may be returned within 30 days of shipment, subject to exclusions."
     ],
     "seoKeywords": [
       "Commando luxury garments",
@@ -613,8 +617,8 @@
       "smoothing internal waistband"
     ],
     "conversionScore": 7,
-    "weekChange": "The homepage lead changed from the Founder’s Collection to “The Strategist’s Pick.” The Neoprene Flared Legging remains $188 with 43 reviews at 4.4/5; $75+ U.S. shipping and the 30-day return policy remain.",
-    "notes": "Current official homepage and tracked PDP checked. The homepage highlights The Strategist’s Pick; the tracked product price and reviews are unchanged. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "No material change: the homepage still features “The Strategist’s Pick,” and the Neoprene Flared Legging remains $188 with 43 reviews at 4.4/5. The $75+ U.S. shipping offer remains.",
+    "notes": "Current official U.S. homepage and tracked PDP checked. Prior pants price range retained because the homepage range is not pants-specific. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 154900,
     "authorityScore": 247847,
     "globalRank": 247847,
@@ -624,13 +628,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "vince",
     "name": "Vince",
     "tier": 2,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.vince.com",
     "segment": "Contemporary Luxury",
     "garmentFocus": "Women's and men's luxury RTW — crepe bias pants, silk, leather, cotton. California-cool minimalist aesthetic. European sourcing (Portugal, Italy). Pant Fit Guide feature.",
@@ -674,12 +678,13 @@
     "hasBestseller": true,
     "heroHeadline": "Introducing Holiday 2026",
     "heroCta": "Women’s New Arrivals; Men’s New Arrivals",
-    "promoOffer": "Colette PDP says “Select Colors on Sale”; no expiry is shown. The current PDP and homepage are non-U.S. localized, so U.S. promotion/price applicability is unverified.",
+    "promoOffer": "Colette PDP says “Select Colors on Sale”; the localized PDP also shows free shipping to the Slovak Republic on orders above €250. U.S. applicability is unverified.",
     "trustSignals": [
       "The Colette PDP labels the style Best Seller.",
-      "Responsible/recycled materials are mentioned.",
+      "Responsible and recycled materials are mentioned.",
       "No review count or rating is shown.",
-      "Current homepage/PDP use Mexico/Peru/Brazil localized pricing and shipping language; the prior U.S. price is retained."
+      "The current homepage and PDP are localized outside the U.S.; the PDP shows €380, so prior verified U.S. price $395 is retained.",
+      "The localized PDP offers free shipping to the Slovak Republic over €250 and eligible returns within 30 days."
     ],
     "seoKeywords": [
       "Colette High-Rise Fluid Satin Bias Pant",
@@ -690,8 +695,8 @@
       "women's new arrivals"
     ],
     "conversionScore": 8,
-    "weekChange": "No material change: the homepage still says “Introducing Holiday 2026,” and Colette remains marked Best Seller with a “Select Colors on Sale” message. The current Brazil-localized PDP shows R$2,250, so prior verified U.S. $395 is retained.",
-    "notes": "Current official homepage and PDP checked. The PDP is Brazil-localized at R$2,250 and does not expose U.S. pricing; prior U.S. price $395 is retained. No review count or rating is shown. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "No material homepage change: “Introducing Holiday 2026” remains. Colette is still marked Best Seller, but the current PDP is Slovakia-localized at €380; the last verified U.S. price of $395 is retained.",
+    "notes": "Current official homepage and PDP checked, but both are non-U.S. localized. U.S. price and pants range retained; no review widget is shown. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 611800,
     "authorityScore": 71076,
     "globalRank": 71076,
@@ -701,13 +706,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "helmut-lang",
     "name": "Helmut Lang",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.helmutlang.com",
     "segment": "Contemporary Designer",
     "garmentFocus": "Denim, jackets, trousers, dresses, knitwear. Ponte Bootcut Pants (most direct competitor). Wardrobe Capsule sub-line. Leather accessories. New York minimalist aesthetic.",
@@ -745,25 +750,26 @@
     "reviewCount": 0,
     "rating": null,
     "hasBestseller": false,
-    "heroHeadline": "HOLIDAY/RESORT 2026",
-    "heroCta": "SHOP THE LOOKBOOK",
-    "promoOffer": "The current homepage offers 15% off a first full-price purchase after email signup. The last verified U.S. Ponte Bootcut listing was $130 from $325 and Final Sale.",
+    "heroHeadline": "BLACK FRIDAY SALE",
+    "heroCta": "Shop Women; Shop Men",
+    "promoOffer": "Homepage offers 15% off a first full-priced purchase with newsletter signup and shows Black Friday sale pricing. U.S. eligibility is unverified.",
     "trustSignals": [
-      "Current homepage features Holiday/Resort 2026 and is localized in Brazilian reais.",
-      "No review widget is shown on the tracked product.",
-      "Last verified U.S. Ponte Bootcut listing was $130 Final Sale from $325; current PDP was not available to reconfirm."
+      "Homepage now leads with BLACK FRIDAY SALE and a 15% first-full-price email signup offer.",
+      "Current homepage is India-localized, not a U.S. storefront.",
+      "The tracked U.S. Ponte Bootcut Pants PDP returned no content; prior U.S. price was $130, Final Sale from $325.",
+      "No review widget was shown on the last verified product capture."
     ],
     "seoKeywords": [
-      "Holiday/Resort 2026",
+      "Black Friday sale",
       "Ponte Bootcut Pants",
       "women's luxury clothing",
       "men's luxury clothing",
       "new arrivals",
-      "shop the lookbook"
+      "newsletter offer"
     ],
     "conversionScore": 7,
-    "weekChange": "The Holiday/Resort 2026 homepage and $130 last-verified U.S. Final Sale price are unchanged. Homepage is now Mexico-localized; the tracked U.S. PDP fetch failed.",
-    "notes": "Official homepage fetch is Mexico-localized and the tracked U.S. PDP fetch failed on 2026-11-09; the last verified U.S. $130 Final Sale price from $325 is retained. Homepage shows a 15% first-full-price-purchase email offer. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The homepage changed from Holiday/Resort 2026 to “BLACK FRIDAY SALE” and now offers 15% off a first full-price order by email signup. The homepage is India-localized; the U.S. PDP fetch was blocked, so prior U.S. product fields remain. Similarweb returned 403, so prior precise traffic figures were retained.",
+    "notes": "Fetch blocked 2026-11-16",
     "monthlyVisits": 154100,
     "authorityScore": 259635,
     "globalRank": 259635,
@@ -773,13 +779,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "wardrobe-nyc",
     "name": "WARDROBE.NYC",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://wardrobe.nyc",
     "segment": "Designer Minimalist",
     "garmentFocus": "Curated luxury women's RTW — trench coats, blazers, leggings, RHW Stretch Trouser, bodysuits, lace, denim. Italian stretch fabric. Edited, not broad, assortment.",
@@ -818,12 +824,12 @@
     "hasBestseller": false,
     "heroHeadline": null,
     "heroCta": null,
-    "promoOffer": "Free shipping on all domestic orders; international express shipping on orders over $250. Archive-sale product is marked Final Sale.",
+    "promoOffer": "Free shipping for all domestic orders; international express shipping on orders over $250.",
     "trustSignals": [
-      "Current localized PDP displays R$3,414 reduced to R$853.50; last verified U.S. price is $750.",
-      "All listed sizes (2XS through XL) are sold out.",
-      "Product is marked Final Sale; archive-sale purchases are excluded from exchanges/returns.",
-      "The general policy offers one free exchange/return within 14 business days, subject to terms."
+      "The homepage resolves to an empty shopping bag, not a usable merchandising page.",
+      "The tracked RHW Stretch Trouser PDP returned no content; prior verified U.S. price is $750.",
+      "The last verified PDP showed the archive-sale item sold out and marked Final Sale.",
+      "The site states free domestic shipping and international express shipping over $250."
     ],
     "seoKeywords": [
       "RHW Stretch Trouser",
@@ -834,8 +840,8 @@
       "archive sale"
     ],
     "conversionScore": 6,
-    "weekChange": "The homepage still resolves to an empty bag. The tracked product URL returned a crawl error, so the prior verified U.S. price of $750 is retained; an official search result suggests $125 from $500, but that price was not directly verified.",
-    "notes": "Homepage is an empty shopping bag. Direct fetch of the tracked product URL failed on 2026-11-09; prior verified U.S. price $750 is retained. An official search result shows a conflicting $125 sale price from $500, not confirmed by direct fetch. Prior reviews remain zero and no rating is shown. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The homepage still resolves to an empty bag. The tracked RHW product fetch was blocked, so prior verified product details and the $750 U.S. price were retained. Similarweb returned 403, so prior precise traffic figures were retained.",
+    "notes": "Fetch blocked 2026-11-16",
     "monthlyVisits": 15400,
     "authorityScore": 1360509,
     "globalRank": 1360509,
@@ -845,13 +851,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "wolford",
     "name": "Wolford",
     "tier": 3,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.wolford.com",
     "segment": "Luxury Knit",
     "garmentFocus": "Hosiery, tights, bodysuits, legwear, RTW. Grazia Trousers (ponte-adjacent). Mat de Luxe proprietary fabric, merino, cashmere, sustainable collection, vegan leather.",
@@ -884,33 +890,34 @@
     ],
     "hasSustainability": 1,
     "hasPetiteTall": 0,
-    "heroProductUrl": "https://us.wolford.com/en-us/embossed-alligator-skirt-53499.4870.html",
-    "heroProductName": "Embossed Alligator Skirt",
-    "heroProductPrice": "$450.00 USD",
+    "heroProductUrl": "https://us.wolford.com/en-us/tulle-control-shorts-69954.4545.html",
+    "heroProductName": "Tulle Control Shorts",
+    "heroProductPrice": "$130.00 USD",
     "priceRange": "$40 – $465",
     "reviewCount": 0,
     "rating": null,
     "hasBestseller": false,
-    "heroHeadline": "Fall with Flair",
-    "heroCta": "SHOP NOW",
-    "promoOffer": "Email signup offers 10% off the next purchase (exclusions apply). Outlet socks and tights discounts are also shown; no expiry is stated.",
+    "heroHeadline": "Holiday Gift Edit",
+    "heroCta": null,
+    "promoOffer": "Email signup offers 10% off the next purchase (exclusions apply). Outlet Bodywear products show 35% and 50% markdowns; no expiry is shown.",
     "trustSignals": [
-      "The first visible U.S. homepage bottom is the Embossed Alligator Skirt at $450 USD.",
-      "Croc-embossed faux leather, regular fit, mid-calf length, concealed elastic waistband.",
+      "Tulle Control Shorts are $130 and marked Light Shaping.",
+      "The PDP has no reviews or rating and no Best Seller badge.",
+      "The U.S. homepage now features Holiday Gift Edit; Tulle Control Shorts is the first pants/bottom item shown in that edit.",
       "Email signup offers 10% off the next purchase; exclusions apply.",
-      "No review count, rating, or bestseller badge is shown."
+      "The product page lists sizes 34–46."
     ],
     "seoKeywords": [
-      "Embossed Alligator Skirt",
-      "croc-embossed faux leather skirt",
-      "Wolford Fall with Flair",
-      "women's designer skirt",
-      "mid-calf pencil skirt",
+      "Tulle Control Shorts",
+      "light shaping control shorts",
+      "tulle shaping shorts",
+      "Holiday Gift Edit",
+      "women's shaping shorts",
       "Wolford United States"
     ],
     "conversionScore": 7,
-    "weekChange": "No material change on the U.S. storefront: “Fall with Flair” still features the $450 Embossed Alligator Skirt, with a 10% email-signup offer. The general Wolford homepage redirected to Mexico, so the U.S. page is used.",
-    "notes": "Current U.S. homepage and tracked skirt PDP checked. Embossed Alligator Skirt remains $450; no review count, rating, or bestseller badge is shown. The general Wolford homepage is Mexico-localized, so us.wolford.com is used for hero fields. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "The U.S. homepage changed to “Holiday Gift Edit.” The tracked bottom changed from the $450 Embossed Alligator Skirt to Tulle Control Shorts at $130; the new PDP has no reviews or rating. The 10% email signup offer remains.",
+    "notes": "Current U.S. homepage and Tulle Control Shorts PDP checked. Wolford's general homepage is Brazil-localized; us.wolford.com is used for hero fields. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 207300,
     "authorityScore": 175293,
     "globalRank": 175293,
@@ -920,13 +927,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "ripley-rader",
     "name": "Ripley Rader",
     "tier": 1,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://ripleyrader.com",
     "segment": "Premium DTC",
     "garmentFocus": "Ponte knit 'magic pants' — wide leg, cropped, straight. Hero SKU: The Perfect Pant ($198). All styles American-made in Downtown LA.",
@@ -971,12 +978,12 @@
     "hasBestseller": false,
     "heroHeadline": "OUR HOLIDAY FAVORITES",
     "heroCta": null,
-    "promoOffer": "20% off your first purchase; no expiry stated.",
+    "promoOffer": "20% off a first purchase with newsletter signup; free U.S. shipping on orders over $140; no expiry shown.",
     "trustSignals": [
-      "Black Ponte Knit Long Wide Leg Pant: $198.",
-      "Free U.S. shipping over $140 and 30-day returns.",
-      "Proudly made in America; premium ponte knit.",
-      "Current direct PDP shows the black variant and all listed sizes unavailable.",
+      "Black Ponte Knit Long Wide Leg Pant remains $198.",
+      "All displayed sizes and the Black color are marked sold out or unavailable.",
+      "Free U.S. shipping over $140; 30-day returns.",
+      "Proudly made in America; premium ponte knit; site cites 5,000+ purchases.",
       "No review widget is shown."
     ],
     "seoKeywords": [
@@ -988,8 +995,8 @@
       "wide-leg pants"
     ],
     "conversionScore": 6,
-    "weekChange": "No material change: the homepage remains “Our Holiday Favorites,” and the $198 Black Ponte Knit Long Wide Leg Pant remains unavailable in displayed sizes with no review widget.",
-    "notes": "Current official homepage, category, and PDP checked. The tracked pant remains $198 and the page marks all displayed sizes unavailable. No review count or rating is shown. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "No material change: the homepage remains “OUR HOLIDAY FAVORITES,” and the tracked $198 black ponte pant remains unavailable in all listed sizes with no review widget.",
+    "notes": "Current official homepage and tracked PDP checked. No review widget is shown. Prior pants price range retained. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 25300,
     "authorityScore": 858977,
     "globalRank": 858977,
@@ -999,13 +1006,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "ayr",
     "name": "AYR",
     "tier": 1,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://ayr.com",
     "segment": "Premium DTC",
     "garmentFocus": "Women's pants and bottoms (scope). Ponte, twill, stretch pants — The Brava, The Hype ponte lines. Best-in-class fit engineering. Bottom-of-wardrobe essentials.",
@@ -1034,18 +1041,17 @@
     "heroProductName": "The Brava — Italian Ponte Kick Flare Elastic Waist Pant",
     "heroProductPrice": "USD $275",
     "priceRange": "$85 – $295",
-    "reviewCount": 175,
-    "rating": 4.7,
+    "reviewCount": null,
+    "rating": null,
     "hasBestseller": false,
-    "heroHeadline": "New American Classics",
-    "heroCta": "Shop Denim; Shop Outerwear",
-    "promoOffer": "10% off a first order; free shipping on orders $75+; The Brava is Final Sale with no returns or exchanges.",
+    "heroHeadline": "New American Classics — Fall Year Round",
+    "heroCta": null,
+    "promoOffer": "Free shipping on orders $75+; The Brava is Final Sale with no returns or exchanges. No first-order offer was visible in the current capture.",
     "trustSignals": [
-      "The Brava is $275 in Italian ponte; Final Sale with no returns or exchanges.",
-      "175 reviews at 4.7/5, up from 173 last week.",
-      "Only a few left; the page also displays a Notify Me option.",
-      "Factory in Hai Phong City passed Intertek security audits and partners with a B Corp-certified company.",
-      "10% off a first order and free shipping on orders $75+."
+      "The Brava is $275 in Italian ponte and is Final Sale with no returns or exchanges.",
+      "The PDP says “Only a few left”; no review count or rating is visible.",
+      "Free shipping on orders $75+.",
+      "The factory passed Intertek security audits and partners with a B Corp-certified company."
     ],
     "seoKeywords": [
       "The Brava",
@@ -1055,9 +1061,9 @@
       "New American Classics",
       "women's pants"
     ],
-    "conversionScore": 8,
-    "weekChange": "The Brava remains $275 and Final Sale; reviews increased from 173 to 175 at 4.7/5. The current PDP says “Only a few left” but also displays a Notify Me option; the homepage still leads with “New American Classics.”",
-    "notes": "Current official homepage and PDP checked. The Brava is $275 with 175 reviews at 4.7/5, 10% off first order, and $75+ free shipping. Availability messages conflict between “Only a few left” and a Notify Me CTA; the style is Final Sale. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "conversionScore": 7,
+    "weekChange": "The Brava remains $275 and Final Sale, but the PDP no longer shows the previous 175 reviews at 4.7/5; it says “Only a few left.” The homepage now reads “New American Classics — Fall Year Round.” Conversion score falls from 8 to 7 because visible social proof is absent.",
+    "notes": "Current official homepage and PDP checked. Review/rating are null because no review widget or count is visible; prior pants price range retained. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 268882,
     "authorityScore": 55135,
     "globalRank": 55135,
@@ -1067,13 +1073,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "blackstrad",
     "name": "Blackstrad",
     "tier": 1,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.blackstrad.com",
     "segment": "Niche DTC (concert attire)",
     "garmentFocus": "Concert black attire for musicians — pants, tops, dresses, layering pieces. Curated third-party brands + Blackstrad Brand Pro Collection.",
@@ -1103,18 +1109,18 @@
     "heroProductName": "The Modern Tux Pant | Concert Black Pants for Musicians",
     "heroProductPrice": "$118.00 USD",
     "priceRange": null,
-    "reviewCount": 42,
+    "reviewCount": 45,
     "rating": 4.9,
     "hasBestseller": false,
     "heroHeadline": "One dress. A wardrobe of possibilities.",
     "heroCta": "Explore the capsule",
-    "promoOffer": "Text signup offers 15% off; the PDP also advertises $20 off a first order. Free U.S. shipping and returns on orders over $150; otherwise shipping is capped at $9.90.",
+    "promoOffer": "Text signup offers 15% off and the homepage advertises $20 off a first order. Free U.S. shipping and returns on orders over $150; shipping is capped at $9.90 otherwise.",
     "trustSignals": [
-      "Modern Tux Pant is $118 USD with 42 reviews at 4.9/5.",
-      "Every listed size and length is sold out or unavailable; the page says estimated restock is approximately December 15.",
-      "Text signup offers 15% off; the page also shows $20 off a first order.",
-      "U.S. shipping is capped at $9.90; free U.S. shipping and returns on orders over $150.",
-      "Designed by a working musician in machine-washable stretch fabric."
+      "The Modern Tux Pant is $118 USD with 45 reviews at 4.9/5, up from 42 last week.",
+      "Verified-buyer reviews are shown.",
+      "Every listed size and length is unavailable; estimated restock is approximately December 15.",
+      "Free U.S. shipping and returns on orders over $150; otherwise shipping is capped at $9.90.",
+      "Designed by a working musician in machine-washable stretch crepe."
     ],
     "seoKeywords": [
       "Modern Tux Pant",
@@ -1125,8 +1131,8 @@
       "musician apparel"
     ],
     "conversionScore": 5,
-    "weekChange": "Modern Tux Pant reviews increased from 39 to 42 at 4.9/5; price remains $118 USD. All sizes and lengths remain unavailable, and the PDP now estimates restock around December 15.",
-    "notes": "Current official PDP confirms $118 USD, 42 reviews at 4.9/5, and every listed size/length unavailable. It estimates restock approximately December 15; texts offer 15% off and the page also displays $20 off a first order. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "Modern Tux Pant reviews increased from 42 to 45 at 4.9/5; price remains $118. Every size and length is still unavailable, with estimated restock around December 15.",
+    "notes": "Current official homepage and PDP checked. The PDP shows a text-signup offer and all sizes unavailable; homepage also advertises $20 off a first order. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": null,
     "authorityScore": 891912,
     "globalRank": 891912,
@@ -1136,13 +1142,13 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   },
   {
     "id": "quince",
     "name": "Quince",
     "tier": 1,
-    "weekOf": "2026-11-09",
+    "weekOf": "2026-11-16",
     "url": "https://www.quince.com",
     "segment": "Value Premium DTC (scale)",
     "garmentFocus": "Women's pants and bottoms (scope). Ultra-Stretch Ponte line — leggings, straight, wide leg, flare, ankle. Direct-to-manufacturer pricing on premium materials.",
@@ -1175,17 +1181,18 @@
     "heroProductName": "Ultra-Stretch Ponte Straight Leg Pants",
     "heroProductPrice": "$39.90 USD",
     "priceRange": "$39.90 – $89.90",
-    "reviewCount": 17153,
+    "reviewCount": 17516,
     "rating": 4.7,
     "hasBestseller": false,
     "heroHeadline": "High-quality essentials at radical prices.",
     "heroCta": "SHOP NOW",
-    "promoOffer": "The tracked Ponte pant is $39.90 versus $99 (59% savings); free standard shipping and 365-day easy returns. Klarna offers four payments of $9.97 at 0% interest.",
+    "promoOffer": "The tracked Ponte pant is $39.90 versus $99 (59% savings); free standard shipping and easy returns for 365 days. No expiry shown.",
     "trustSignals": [
-      "Ponte pant is $39.90 versus $99 (59% savings), with 17,153 reviews at 4.7/5.",
+      "Ponte pant is $39.90 versus $99 (59% savings), with 17,516 reviews at 4.7/5.",
+      "Reviews increased by 363 from the previous snapshot.",
       "Free standard shipping and 365-day easy returns.",
-      "Four-way stretch and wrinkle resistant; product page says produced without pesticides or fertilizers.",
-      "The tracked PDP does not show a Best Seller badge; homepage has Best Seller labels on other products."
+      "Four-way stretch and wrinkle resistant; the PDP says produced without pesticides or fertilizers.",
+      "No Best Seller badge is visible on the tracked PDP."
     ],
     "seoKeywords": [
       "Ultra-Stretch Ponte Straight Leg Pants",
@@ -1196,8 +1203,8 @@
       "wrinkle-resistant ponte pants"
     ],
     "conversionScore": 9,
-    "weekChange": "Ponte-pant reviews increased from 16,799 to 17,153 (+354), with rating holding at 4.7/5 and price at $39.90 versus $99. The current tracked PDP does not show a Best Seller badge, unlike the prior snapshot; homepage remains on the brand tagline.",
-    "notes": "Current official PDP confirms $39.90, 17,153 reviews at 4.7/5, 59% savings versus $99, free standard shipping, and 365-day returns. No bestseller badge is visible on the tracked PDP; homepage best-seller labels refer to other products. Similarweb returned no readable current metrics on 2026-11-09; prior precise monthlyVisits, globalRank, usRank, and authorityScore are retained.",
+    "weekChange": "Ponte-pant reviews increased from 17,153 to 17,516 (+363), with rating holding at 4.7/5 and price at $39.90 versus $99. The tracked PDP remains in stock and does not show a Best Seller badge.",
+    "notes": "Current official homepage and tracked PDP checked. The PDP confirms $39.90, 17,516 reviews at 4.7/5, 59% savings, free shipping, and 365-day returns. Similarweb returned 403 access denied on 2026-11-16; no precise current monthly visits or rank figures were available, so prior precise values were retained.",
     "monthlyVisits": 64200000,
     "authorityScore": 455,
     "globalRank": 455,
@@ -1207,6 +1214,6 @@
     "organicKeywords": null,
     "paidTraffic": null,
     "semrushUpdated": false,
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-16"
   }
 ]
